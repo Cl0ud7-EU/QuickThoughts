@@ -9,13 +9,13 @@ import SwiftUI
 
 struct LoginView: View {
     
-    @EnvironmentObject var auth: Authentication
+    var auth: Authentication = .shared
+    
+    //@EnvironmentObject var auth: Authentication
     @ObservedObject var viewModel: LoginViewModel = LoginViewModel()
     
     @State private var username: String = ""
     @State private var password: String = ""
-    
-    @State private var user = UserT()
     
     var body: some View {
         VStack {
@@ -44,7 +44,8 @@ struct LoginView: View {
             Button("LOGIN") {
                 Task {
                     do {
-                        try await user = viewModel.logIn()
+                        //try await auth.setUser(user: viewModel.logIn())
+                        try await viewModel.logIn()
                         auth.setLoggedStatus()
                     }
                     catch {

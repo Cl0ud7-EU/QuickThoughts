@@ -10,16 +10,32 @@ import SwiftUI
 
 struct MainView: View {
     
+    //@StateObject var NewQuickTVieWModel = NewQuickTViewModel(text: "")
     @EnvironmentObject var auth: Authentication
     
     var body: some View {
         TabView {
+            CustomNavigationView {
+                TimelineView()
+                .navBarTitle(title: "QuickT")
+                .navBarBackButtonHidden(value: true)
+            }
+            //.environmentObject(NewQuickTVieWModel)
+            .tabItem {
+                Text("Timeline")
+            }
+            
             NavigationView {
+                //SearchView()
             }
             .tabItem {
                     Text("Search")
 
             }
+//            Profile(user: auth.user)
+//            .tabItem {
+//                    Text("Profile")
+//            }
         }
         .edgesIgnoringSafeArea(.all)
         .onAppear() {
@@ -51,6 +67,7 @@ extension UITabBarController {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    //static let user = User(id: 1, name: "Cl0ud7")
     static let auth = Authentication()
 
     static var previews: some View {

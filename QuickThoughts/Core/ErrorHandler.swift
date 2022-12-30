@@ -12,6 +12,8 @@ enum ErrorHandler: Error
 {
     case invalidServerResponse
     case invalidData
+    case jsonEncoderError
+    case coreDataError
 }
 
 extension ErrorHandler: LocalizedError {
@@ -21,6 +23,10 @@ extension ErrorHandler: LocalizedError {
             return NSLocalizedString("Server response error", comment: "")
         case .invalidData:
             return NSLocalizedString("Invalid data", comment: "")
+        case .jsonEncoderError:
+            return NSLocalizedString("Error encoding data to Json", comment: "")
+        case .coreDataError:
+            return NSLocalizedString("Error with coreData", comment: "")
         }
     }
 }

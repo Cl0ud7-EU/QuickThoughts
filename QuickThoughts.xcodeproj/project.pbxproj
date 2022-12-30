@@ -15,6 +15,12 @@
 		03564B3F293E782F00676ABD /* NavBarKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B3A293E782F00676ABD /* NavBarKeys.swift */; };
 		03B71C4F2936DDE8004204B7 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B71C4E2936DDE8004204B7 /* ErrorHandler.swift */; };
 		03B71C522936E257004204B7 /* UserT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B71C512936E257004204B7 /* UserT.swift */; };
+		03C1585929491E1F00CE3505 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1585829491E1F00CE3505 /* TimelineView.swift */; };
+		03C1585B29491FD500CE3505 /* TimelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1585A29491FD500CE3505 /* TimelineViewModel.swift */; };
+		03C1585D2949206400CE3505 /* QuickT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1585C2949206400CE3505 /* QuickT.swift */; };
+		03C1585F294936EF00CE3505 /* TimelineQuickTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1585E294936EF00CE3505 /* TimelineQuickTView.swift */; };
+		03C158612949376700CE3505 /* QuickTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C158602949376700CE3505 /* QuickTView.swift */; };
+		03F66786294D2ECD000D3105 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F66785294D2ECD000D3105 /* UserStorage.swift */; };
 		03FA39F229353761005BF200 /* QuickThoughtsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA39F129353761005BF200 /* QuickThoughtsApp.swift */; };
 		03FA39F629353763005BF200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FA39F529353763005BF200 /* Assets.xcassets */; };
 		03FA39F929353763005BF200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FA39F829353763005BF200 /* Preview Assets.xcassets */; };
@@ -57,6 +63,12 @@
 		03564B3A293E782F00676ABD /* NavBarKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarKeys.swift; sourceTree = "<group>"; };
 		03B71C4E2936DDE8004204B7 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		03B71C512936E257004204B7 /* UserT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserT.swift; sourceTree = "<group>"; };
+		03C1585829491E1F00CE3505 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		03C1585A29491FD500CE3505 /* TimelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewModel.swift; sourceTree = "<group>"; };
+		03C1585C2949206400CE3505 /* QuickT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickT.swift; sourceTree = "<group>"; };
+		03C1585E294936EF00CE3505 /* TimelineQuickTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineQuickTView.swift; sourceTree = "<group>"; };
+		03C158602949376700CE3505 /* QuickTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTView.swift; sourceTree = "<group>"; };
+		03F66785294D2ECD000D3105 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 		03FA39EE29353761005BF200 /* QuickThoughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickThoughts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FA39F129353761005BF200 /* QuickThoughtsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickThoughtsApp.swift; sourceTree = "<group>"; };
 		03FA39F529353763005BF200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,6 +144,23 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		03C1585729491E0200CE3505 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				03C1585829491E1F00CE3505 /* TimelineView.swift */,
+				03C1585E294936EF00CE3505 /* TimelineQuickTView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		03F66784294D2E93000D3105 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				03F66785294D2ECD000D3105 /* UserStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		03FA39E529353761005BF200 = {
 			isa = PBXGroup;
 			children = (
@@ -159,9 +188,10 @@
 			children = (
 				03FA39F129353761005BF200 /* QuickThoughtsApp.swift */,
 				03B71C502936DDED004204B7 /* Core */,
-				03FA3A222935394E005BF200 /* ViewModel */,
 				03FA3A212935393F005BF200 /* View */,
+				03FA3A222935394E005BF200 /* ViewModel */,
 				03FA3A2029353938005BF200 /* Model */,
+				03F66784294D2E93000D3105 /* Storage */,
 				03FA39F529353763005BF200 /* Assets.xcassets */,
 				03FA39FA29353763005BF200 /* Persistence.swift */,
 				03FA39FC29353763005BF200 /* QuickThoughts.xcdatamodeld */,
@@ -199,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				03B71C512936E257004204B7 /* UserT.swift */,
+				03C1585C2949206400CE3505 /* QuickT.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -206,8 +237,10 @@
 		03FA3A212935393F005BF200 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				03564B35293E77E500676ABD /* NavigationView */,
 				03FA3A292935420A005BF200 /* LoginView.swift */,
+				03C158602949376700CE3505 /* QuickTView.swift */,
+				03C1585729491E0200CE3505 /* Timeline */,
+				03564B35293E77E500676ABD /* NavigationView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				03FA3A2B293542A4005BF200 /* LoginViewModel.swift */,
+				03C1585A29491FD500CE3505 /* TimelineViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -485,15 +519,21 @@
 				03564B34293E77A400676ABD /* MainView.swift in Sources */,
 				03564B3B293E782F00676ABD /* CustomNavBarContainer.swift in Sources */,
 				03564B3F293E782F00676ABD /* NavBarKeys.swift in Sources */,
+				03F66786294D2ECD000D3105 /* UserStorage.swift in Sources */,
+				03C158612949376700CE3505 /* QuickTView.swift in Sources */,
 				03564B3D293E782F00676ABD /* CustomNavigationView.swift in Sources */,
+				03C1585B29491FD500CE3505 /* TimelineViewModel.swift in Sources */,
 				03B71C4F2936DDE8004204B7 /* ErrorHandler.swift in Sources */,
 				03FA39FB29353763005BF200 /* Persistence.swift in Sources */,
 				03FA39FE29353763005BF200 /* QuickThoughts.xcdatamodeld in Sources */,
 				03FA3A2829354019005BF200 /* Authentication.swift in Sources */,
+				03C1585D2949206400CE3505 /* QuickT.swift in Sources */,
 				03564B3E293E782F00676ABD /* navBar.swift in Sources */,
 				03FA39F229353761005BF200 /* QuickThoughtsApp.swift in Sources */,
 				03564B3C293E782F00676ABD /* CustomNavLink.swift in Sources */,
 				03FA3A2C293542A4005BF200 /* LoginViewModel.swift in Sources */,
+				03C1585929491E1F00CE3505 /* TimelineView.swift in Sources */,
+				03C1585F294936EF00CE3505 /* TimelineQuickTView.swift in Sources */,
 				03B71C522936E257004204B7 /* UserT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,15 +23,15 @@ class LoginViewModel: ObservableObject {
 
     let request = NSFetchRequest<User>(entityName: "User")
     
-    
-    init() {
+    var auth = Authentication.shared
+    init()
+    {
         username = keychain.get("username") ?? ""
         password = keychain.get("password") ?? ""
     }
 
-    func logIn() async throws -> UserT
+    func logIn() async throws //-> UserT
     {
-        let user: UserT
         let url = URL(string: urlHost+"user?id="+username)!
         
         let (data, response) = try await URLSession.shared.data(from: url)
@@ -39,19 +39,20 @@ class LoginViewModel: ObservableObject {
         guard let httpResponse = response as? HTTPURLResponse,
               httpResponse.statusCode == 200 else {
             throw ErrorHandler.invalidServerResponse
-            
         }
         
-        do {
+        do
+        {
             let decodedData = try JSONDecoder().decode([UserT].self, from: data)
-            user = UserT(id: decodedData[0].id, name: decodedData[0].name)
-            
-            //*** This user.id is Temporal, CHANGE IT!!!!!!!! ***//////
-            keychain.set(String(user.id), forKey: "id")
-        } catch {
+            //user = UserT(id: decodedData[0].id, name: decodedData[0].name)
+      
+            // TEMPORARY: This user.id stuff needs to be changed to a key or something like that!!!!
+            //keychain.set(String(user.id), forKey: "id")
+            keychain.set(String(decodedData[0].id), forKey: "id")
+        } catch
+        {
             throw ErrorHandler.invalidData
         }
-
-        return user
+        //return user
     }
 }
