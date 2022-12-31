@@ -1,5 +1,5 @@
 //
-//  QuickT.swift
+//  User.swift
 //  QuickThoughts
 //
 //  Created by Cl0ud7.
@@ -8,40 +8,33 @@
 import Foundation
 import CoreData
 
-class QuickT: NSManagedObject
+class User: NSManagedObject
 {
-    
-    // Unique identifier to avoid duplicates
     @NSManaged var id: Int32
-    
-    @NSManaged var userId: Int32
-    @NSManaged var text: String
-    //@NSManaged var imageData: String
-    
-    
+    @NSManaged var name: String
+    @NSManaged var follows: [Int32]?
 }
 
-struct QuickTDecodable: Decodable
+struct UserDecodable: Decodable
 {
     let id: Int32
-    let text: String
-    let userId: Int32
+    let name: String
+    let follows: [Int32]?
     //let imageData: String
 
     private enum CodingKeys: String, CodingKey
     {
         case id
-        case text
-        case userId
-        //case imageData
+        case name
+        case follows
     }
     
     init(form decoder: Decoder) throws
     {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         self.id = try values.decode(Int32.self, forKey: .id)
-        self.text = try values.decode(String.self, forKey: .text)
-        self.userId = try values.decode(Int32.self, forKey: .userId)
+        self.name = try values.decode(String.self, forKey: .name)
+        self.follows = try? values.decode([Int32].self, forKey: .follows)
 //        if var imageData = try values.decodeIfPresent(String.self, forKey: .imageData) {
 //            self.imageData = imageData
 //        } else {
@@ -54,8 +47,8 @@ struct QuickTDecodable: Decodable
     {
         [
             "id": self.id,
-            "text": self.text,
-            "userId": self.userId,
+            "name": self.name,
+            "follows": self.follows,
             //"image_url": self.imageData
         ]
     }

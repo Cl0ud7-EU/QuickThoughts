@@ -10,12 +10,13 @@ import KeychainSwift
 import CoreData
 
 @MainActor
-class TimelineViewModel: ObservableObject {
+class TimelineViewModel: ObservableObject
+{
 
     let keychain = KeychainSwift()
     
     @Published var timelineQuickTs: [QuickT] = []
-    @Published var timelineUsers: [Int32:UserT] = [:]
+    @Published var timelineUsers: [Int32:User] = [:]
     
     var auth = Authentication.shared
     
@@ -60,10 +61,37 @@ class TimelineViewModel: ObservableObject {
           print("ERROR RETREIVING TIMELINE QUICKTS:", error)
         }
         
+        // TEMPORARY: Fetch Quickts Users from CoreData
+        timelineUsers.removeAll()
+        let context = PersistenceController.shared.container.viewContext
+        let fetchRequest = NSFetchRequest<User>(entityName: "User")
         // TEMPORARY: This needs to be redone to work with only 1 request to the server!!!!
         for quickt in timelineQuickTs.reversed()
         {
-            try await fetchUser(userId: quickt.userId)
+            var user: User? = nil
+            // Check if user is already in CoreData Persistence
+            fetchRequest.predicate = NSPredicate(format: "id == %ld", quickt.userId)
+            
+            do
+            {
+                user = try context.fetch(fetchRequest).first
+                
+                // If not, fetch the user from the backend
+                if (user == nil)
+                {
+                    try await fetchUser(userId: quickt.userId)
+                    
+                    do
+                    {
+                       user = try context.fetch(fetchRequest).first
+                    } catch {
+                        print(error)
+                    }
+                }
+                timelineUsers[quickt.id] = user
+            } catch {
+                print(error)
+            }
         }
     }
     
@@ -94,7 +122,7 @@ class TimelineViewModel: ObservableObject {
             {
                 let timelineQuickTsD = try JSONDecoder().decode([QuickTDecodable].self, from: data)
 
-                try await importQuickTs(quickts: timelineQuickTsD)
+                try await QuickTStorage.shared.importQuickTs(quickts: timelineQuickTsD)
             } catch {
                 print(error)
                 throw ErrorHandler.invalidData
@@ -113,54 +141,6 @@ class TimelineViewModel: ObservableObject {
         }
     }
     
-    private func importQuickTs(quickts: [QuickTDecodable]) async throws {
-        guard !quickts.isEmpty else {return}
-        
-        let taskContext = PersistenceController.shared.container.newBackgroundContext()
-        taskContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
-        
-        taskContext.name = "importContext"
-        taskContext.transactionAuthor = "importQuickTs"
-        
-        try await taskContext.perform {
-            let batchInsertRequest = self.newBatchInsertRequest(with: quickts)
-            if let fetchResult = try? taskContext.execute(batchInsertRequest),
-               let batchInsertResult = fetchResult as? NSBatchInsertResult,
-               let success = batchInsertResult.result as? Bool, success {
-                return
-            }
-            throw ErrorHandler.coreDataError
-        }
-    }
-    
-    private func newBatchInsertRequest(with propertyList: [QuickTDecodable]) -> NSBatchInsertRequest {
-        var index = 0
-        let total = propertyList.count
-
-        // Provide one dictionary at a time when the closure is called.
-        let batchInsertRequest = NSBatchInsertRequest(entity: QuickT.entity(), dictionaryHandler: { dictionary in
-            guard index < total else { return true }
-            dictionary.addEntries(from: propertyList[index].dictionaryValue)
-            index += 1
-            return false
-        })
-        return batchInsertRequest
-    }
-    
-    // Deletes 1 Object Synchronously
-    func deleteQuickT(objectID: NSManagedObject) {
-        let viewContext = PersistenceController.shared.container.viewContext
-        viewContext.delete(objectID)
-        // Save the changes to the context
-        do {
-            try PersistenceController.shared.container.viewContext.save()
-        } catch {
-            let nsError = error as NSError
-            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-        }
-    }
-    
-    
     private func fetchUser(userId: Int32) async throws
     {
         let url =  URL(string: urlHost+"user?id="+String(userId))!
@@ -174,12 +154,13 @@ class TimelineViewModel: ObservableObject {
         
         do
         {
-            let decodedData = try JSONDecoder().decode([UserT].self, from: data)
-            timelineUsers[decodedData[0].id] = decodedData[0]
-
+            let decodedData = try JSONDecoder().decode([UserDecodable].self, from: data)
+            //timelineUsers[decodedData[0].id] = decodedData[0]
+            print(decodedData[0])
+            try await UserStorage.shared.importUsers(users: decodedData)
+            
         } catch {
-            throw ErrorHandler.coreDataError
+            throw ErrorHandler.fetchingUsers
         }
     }
-    
 }

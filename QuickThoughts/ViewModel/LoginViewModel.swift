@@ -14,7 +14,8 @@ import KeychainSwift
 let urlHost = "http://localhost:3001/";
 
 
-class LoginViewModel: ObservableObject {
+class LoginViewModel: ObservableObject
+{
     
     let keychain = KeychainSwift()
     
