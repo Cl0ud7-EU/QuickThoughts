@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ProfilePic" representedClassName=".ProfilePic" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Binary"/>
+        <attribute name="idUser" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <relationship name="ofUser" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="profilePic" inverseEntity="User"/>
+    </entity>
     <entity name="QuickT" representedClassName=".QuickT" syncable="YES">
         <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="text" attributeType="String"/>
@@ -13,7 +19,9 @@
     <entity name="User" representedClassName=".User" syncable="YES">
         <attribute name="follows" optional="YES" attributeType="Transformable" customClassName="[Int]"/>
         <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="profilePicURL" optional="YES" attributeType="String"/>
+        <relationship name="profilePic" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ProfilePic" inverseName="ofUser" inverseEntity="ProfilePic"/>
         <uniquenessConstraints>
             <uniquenessConstraint>
                 <constraint value="id"/>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033A77812961A91A00D8641A /* ProfilePic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033A77802961A91A00D8641A /* ProfilePic.swift */; };
+		033A77832961B6ED00D8641A /* QuickTProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033A77822961B6ED00D8641A /* QuickTProfileImage.swift */; };
 		03564B34293E77A400676ABD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B33293E77A400676ABD /* MainView.swift */; };
 		03564B3B293E782F00676ABD /* CustomNavBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B36293E782F00676ABD /* CustomNavBarContainer.swift */; };
 		03564B3C293E782F00676ABD /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B37293E782F00676ABD /* CustomNavLink.swift */; };
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033A77802961A91A00D8641A /* ProfilePic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePic.swift; sourceTree = "<group>"; };
+		033A77822961B6ED00D8641A /* QuickTProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTProfileImage.swift; sourceTree = "<group>"; };
 		03564B33293E77A400676ABD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		03564B36293E782F00676ABD /* CustomNavBarContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainer.swift; sourceTree = "<group>"; };
 		03564B37293E782F00676ABD /* CustomNavLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 			children = (
 				03C1585829491E1F00CE3505 /* TimelineView.swift */,
 				03C1585E294936EF00CE3505 /* TimelineQuickTView.swift */,
+				033A77822961B6ED00D8641A /* QuickTProfileImage.swift */,
 			);
 			path = Timeline;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 				03B71C512936E257004204B7 /* UserT.swift */,
 				03C1585C2949206400CE3505 /* QuickT.swift */,
 				03BB298E295F151400931908 /* User.swift */,
+				033A77802961A91A00D8641A /* ProfilePic.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -529,8 +535,10 @@
 				03C158612949376700CE3505 /* QuickTView.swift in Sources */,
 				03564B3D293E782F00676ABD /* CustomNavigationView.swift in Sources */,
 				03C1585B29491FD500CE3505 /* TimelineViewModel.swift in Sources */,
+				033A77832961B6ED00D8641A /* QuickTProfileImage.swift in Sources */,
 				03B71C4F2936DDE8004204B7 /* ErrorHandler.swift in Sources */,
 				03FA39FB29353763005BF200 /* Persistence.swift in Sources */,
+				033A77812961A91A00D8641A /* ProfilePic.swift in Sources */,
 				03BAA7EC29604B4F00878D0B /* QuickTStorage.swift in Sources */,
 				03FA39FE29353763005BF200 /* QuickThoughts.xcdatamodeld in Sources */,
 				03FA3A2829354019005BF200 /* Authentication.swift in Sources */,

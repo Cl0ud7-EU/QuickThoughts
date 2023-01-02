@@ -49,6 +49,4 @@ class UserStorage: NSObject, ObservableObject
         })
         return batchInsertRequest
     }
-    
-    
 }

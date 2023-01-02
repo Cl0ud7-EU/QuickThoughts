@@ -17,6 +17,7 @@ class TimelineViewModel: ObservableObject
     
     @Published var timelineQuickTs: [QuickT] = []
     @Published var timelineUsers: [Int32:User] = [:]
+    @Published var image: UIImage?
     
     var auth = Authentication.shared
     
@@ -65,6 +66,7 @@ class TimelineViewModel: ObservableObject
         timelineUsers.removeAll()
         let context = PersistenceController.shared.container.viewContext
         let fetchRequest = NSFetchRequest<User>(entityName: "User")
+        
         // TEMPORARY: This needs to be redone to work with only 1 request to the server!!!!
         for quickt in timelineQuickTs.reversed()
         {
@@ -88,7 +90,39 @@ class TimelineViewModel: ObservableObject
                         print(error)
                     }
                 }
+                
+                
+                // TEMPORARY: Download ProfilePics if not already saved in CoreData
+                let context = PersistenceController.shared.container.viewContext
+                let fetchRequest = NSFetchRequest<ProfilePic>(entityName: "ProfilePic")
+                fetchRequest.predicate = NSPredicate(format: "idUser == %ld", quickt.userId)
+                var image: ProfilePic? = nil
+                do
+                {
+                    image = try context.fetch(fetchRequest).first
+                    
+                    // If not, fetch the user from the backend
+                    if (image == nil)
+                    {
+                        try await downloadImage(idUser: quickt.userId)
+                        
+                        do
+                        {
+                           image = try context.fetch(fetchRequest).first
+                        } catch {
+                            print(error)
+                        }
+                    }
+                    user?.profilePic = image
+                    //self.image = base64DataToImage(image!.data)
+                    //self.image = base64DataToImage((user?.profilePic!.data)!)
+                } catch {
+                    print(error)
+                }
+                
                 timelineUsers[quickt.id] = user
+                // END
+                
             } catch {
                 print(error)
             }
@@ -133,7 +167,7 @@ class TimelineViewModel: ObservableObject
             let context = PersistenceController.shared.container.viewContext
             let fetchRequest = NSFetchRequest<QuickT>(entityName: "QuickT")
             fetchRequest.sortDescriptors = [NSSortDescriptor(keyPath: \QuickT.id, ascending: true)]
-            fetchRequest.fetchLimit = 50
+            fetchRequest.fetchLimit = 10
             let object = try context.fetch(fetchRequest)
             object.forEach { object in
                 timelineQuickTs.append(object)
@@ -161,6 +195,45 @@ class TimelineViewModel: ObservableObject
             
         } catch {
             throw ErrorHandler.fetchingUsers
+        }
+    }
+    
+    func downloadImage(idUser: Int32) async throws {
+
+        let url = URL(string: urlHost+"pic")!
+
+        let (data, response) = try await URLSession.shared.data(from: url)
+        
+        guard let httpResponse = response as? HTTPURLResponse,
+              httpResponse.statusCode == 200 else {
+            throw ErrorHandler.downloadingImage
+        }
+        
+        do
+        {
+            try await insertPic(data: data, idUser: idUser)
+        } catch {
+            throw ErrorHandler.invalidData
+        }
+    }
+    
+    func base64DataToImage(_ base64Data: Data) -> UIImage? {
+        guard let imageData = Data(base64Encoded: base64Data) else { return nil }
+        return UIImage(data: imageData)
+    }
+    
+    func insertPic(data: Data, idUser: Int32) async throws
+    {
+        let newProfilePic = ProfilePic(context: PersistenceController.shared.container.viewContext)
+        newProfilePic.idUser = idUser
+        newProfilePic.data = data
+        newProfilePic.url = ""
+
+        do {
+            try PersistenceController.shared.container.viewContext.save()
+        } catch {
+            let nsError = error as NSError
+            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
         }
     }
 }

@@ -11,11 +11,12 @@ struct TimelineQuickTView: View {
     
     var quickt: QuickT
     var user: String
+    let profileImage: UIImage
     var body: some View {
         VStack {
             HStack {
-                //QuickTProfileImage()
-                    //.frame(alignment: .leading)
+                QuickTProfileImage(UIimage: (profileImage ?? UIImage(systemName: "person.circle.fill"))!)
+                    .frame(alignment: .leading)
                 Text(String(user))
                     .foregroundColor(.black)
                     .frame(alignment: .leading)

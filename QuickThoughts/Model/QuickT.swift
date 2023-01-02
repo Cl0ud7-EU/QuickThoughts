@@ -50,7 +50,7 @@ struct QuickTDecodable: Decodable
     }
 
     // The keys must have the same name as the attributes of the QuickT entity.
-    var dictionaryValue: [String: Any]
+    var dictionaryValue: [String : Any]
     {
         [
             "id": self.id,
