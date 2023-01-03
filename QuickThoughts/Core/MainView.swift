@@ -32,12 +32,12 @@ struct MainView: View {
                     Text("Search")
 
             }
-//            Profile(user: auth.user)
-//            .tabItem {
-//                    Text("Profile")
-//            }
+            Profile()
+            .tabItem {
+                    Text("Profile")
+            }
         }
-        .edgesIgnoringSafeArea(.all)
+        //.edgesIgnoringSafeArea(.all)
         .onAppear() {
             let attributes = [
                 NSAttributedString.Key.font: UIFont.systemFont(ofSize: 20, weight: .bold),

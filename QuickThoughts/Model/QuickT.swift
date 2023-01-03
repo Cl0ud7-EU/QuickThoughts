@@ -11,7 +11,7 @@ import CoreData
 class QuickT: NSManagedObject
 {
     
-    // Unique identifier to avoid duplicates
+    /// Unique identifier to avoid duplicates
     @NSManaged var id: Int32
     
     @NSManaged var userId: Int32
@@ -49,7 +49,7 @@ struct QuickTDecodable: Decodable
 //        }
     }
 
-    // The keys must have the same name as the attributes of the QuickT entity.
+    /// The keys must have the same name as the attributes of the QuickT entity.
     var dictionaryValue: [String : Any]
     {
         [

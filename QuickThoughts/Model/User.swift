@@ -46,7 +46,7 @@ struct UserDecodable: Decodable
 //        }
     }
 
-    // The keys must have the same name as the attributes of the QuickT entity.
+    /// The keys must have the same name as the attributes of the QuickT entity.
     var dictionaryValue: [String : Any]
     {
         [

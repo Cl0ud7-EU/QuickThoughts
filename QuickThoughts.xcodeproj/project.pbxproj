@@ -15,10 +15,20 @@
 		03564B3D293E782F00676ABD /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B38293E782F00676ABD /* CustomNavigationView.swift */; };
 		03564B3E293E782F00676ABD /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B39293E782F00676ABD /* navBar.swift */; };
 		03564B3F293E782F00676ABD /* NavBarKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B3A293E782F00676ABD /* NavBarKeys.swift */; };
+		039226A12963729D0005F902 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039226A02963729D0005F902 /* Profile.swift */; };
+		039226A3296373170005F902 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039226A2296373170005F902 /* ProfileViewModel.swift */; };
+		039226A52963775C0005F902 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039226A42963775C0005F902 /* Settings.swift */; };
+		039226A7296377EA0005F902 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039226A6296377EA0005F902 /* ProfileImage.swift */; };
+		039226A92963789A0005F902 /* QuickTScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039226A82963789A0005F902 /* QuickTScrollView.swift */; };
+		039226AB29637A160005F902 /* Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039226AA29637A160005F902 /* Conversions.swift */; };
 		03B71C4F2936DDE8004204B7 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B71C4E2936DDE8004204B7 /* ErrorHandler.swift */; };
 		03B71C522936E257004204B7 /* UserT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B71C512936E257004204B7 /* UserT.swift */; };
 		03BAA7EC29604B4F00878D0B /* QuickTStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAA7EB29604B4F00878D0B /* QuickTStorage.swift */; };
 		03BB298F295F151400931908 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BB298E295F151400931908 /* User.swift */; };
+		03C0AF87296492D000D5DA8E /* QuickTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0AF86296492D000D5DA8E /* QuickTManager.swift */; };
+		03C0AF892964A65E00D5DA8E /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0AF882964A65E00D5DA8E /* UserManager.swift */; };
+		03C0AF8B2964AF1E00D5DA8E /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0AF8A2964AF1E00D5DA8E /* ImageManager.swift */; };
+		03C0AF8D2964B05D00D5DA8E /* ProfilePicStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C0AF8C2964B05D00D5DA8E /* ProfilePicStorage.swift */; };
 		03C1585929491E1F00CE3505 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1585829491E1F00CE3505 /* TimelineView.swift */; };
 		03C1585B29491FD500CE3505 /* TimelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1585A29491FD500CE3505 /* TimelineViewModel.swift */; };
 		03C1585D2949206400CE3505 /* QuickT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1585C2949206400CE3505 /* QuickT.swift */; };
@@ -67,10 +77,20 @@
 		03564B38293E782F00676ABD /* CustomNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		03564B39293E782F00676ABD /* navBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navBar.swift; sourceTree = "<group>"; };
 		03564B3A293E782F00676ABD /* NavBarKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarKeys.swift; sourceTree = "<group>"; };
+		039226A02963729D0005F902 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		039226A2296373170005F902 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		039226A42963775C0005F902 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		039226A6296377EA0005F902 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		039226A82963789A0005F902 /* QuickTScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTScrollView.swift; sourceTree = "<group>"; };
+		039226AA29637A160005F902 /* Conversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversions.swift; sourceTree = "<group>"; };
 		03B71C4E2936DDE8004204B7 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		03B71C512936E257004204B7 /* UserT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserT.swift; sourceTree = "<group>"; };
 		03BAA7EB29604B4F00878D0B /* QuickTStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTStorage.swift; sourceTree = "<group>"; };
 		03BB298E295F151400931908 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		03C0AF86296492D000D5DA8E /* QuickTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTManager.swift; sourceTree = "<group>"; };
+		03C0AF882964A65E00D5DA8E /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		03C0AF8A2964AF1E00D5DA8E /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		03C0AF8C2964B05D00D5DA8E /* ProfilePicStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicStorage.swift; sourceTree = "<group>"; };
 		03C1585829491E1F00CE3505 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
 		03C1585A29491FD500CE3505 /* TimelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewModel.swift; sourceTree = "<group>"; };
 		03C1585C2949206400CE3505 /* QuickT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickT.swift; sourceTree = "<group>"; };
@@ -142,14 +162,36 @@
 			path = NavigationView;
 			sourceTree = "<group>";
 		};
+		0392269F2963727B0005F902 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				039226A02963729D0005F902 /* Profile.swift */,
+				039226A42963775C0005F902 /* Settings.swift */,
+				039226A6296377EA0005F902 /* ProfileImage.swift */,
+				039226A82963789A0005F902 /* QuickTScrollView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		03B71C502936DDED004204B7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				03FA3A2729354019005BF200 /* Authentication.swift */,
 				03B71C4E2936DDE8004204B7 /* ErrorHandler.swift */,
 				03564B33293E77A400676ABD /* MainView.swift */,
+				039226AA29637A160005F902 /* Conversions.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		03C0AF85296492BB00D5DA8E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				03C0AF86296492D000D5DA8E /* QuickTManager.swift */,
+				03C0AF882964A65E00D5DA8E /* UserManager.swift */,
+				03C0AF8A2964AF1E00D5DA8E /* ImageManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		03C1585729491E0200CE3505 /* Timeline */ = {
@@ -167,6 +209,7 @@
 			children = (
 				03F66785294D2ECD000D3105 /* UserStorage.swift */,
 				03BAA7EB29604B4F00878D0B /* QuickTStorage.swift */,
+				03C0AF8C2964B05D00D5DA8E /* ProfilePicStorage.swift */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -202,6 +245,7 @@
 				03FA3A222935394E005BF200 /* ViewModel */,
 				03FA3A2029353938005BF200 /* Model */,
 				03F66784294D2E93000D3105 /* Storage */,
+				03C0AF85296492BB00D5DA8E /* Manager */,
 				03FA39F529353763005BF200 /* Assets.xcassets */,
 				03FA39FA29353763005BF200 /* Persistence.swift */,
 				03FA39FC29353763005BF200 /* QuickThoughts.xcdatamodeld */,
@@ -249,6 +293,7 @@
 		03FA3A212935393F005BF200 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0392269F2963727B0005F902 /* Profile */,
 				03FA3A292935420A005BF200 /* LoginView.swift */,
 				03C158602949376700CE3505 /* QuickTView.swift */,
 				03C1585729491E0200CE3505 /* Timeline */,
@@ -262,6 +307,7 @@
 			children = (
 				03FA3A2B293542A4005BF200 /* LoginViewModel.swift */,
 				03C1585A29491FD500CE3505 /* TimelineViewModel.swift */,
+				039226A2296373170005F902 /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -533,22 +579,32 @@
 				03564B3F293E782F00676ABD /* NavBarKeys.swift in Sources */,
 				03F66786294D2ECD000D3105 /* UserStorage.swift in Sources */,
 				03C158612949376700CE3505 /* QuickTView.swift in Sources */,
+				03C0AF892964A65E00D5DA8E /* UserManager.swift in Sources */,
 				03564B3D293E782F00676ABD /* CustomNavigationView.swift in Sources */,
 				03C1585B29491FD500CE3505 /* TimelineViewModel.swift in Sources */,
+				03C0AF8B2964AF1E00D5DA8E /* ImageManager.swift in Sources */,
 				033A77832961B6ED00D8641A /* QuickTProfileImage.swift in Sources */,
+				039226A7296377EA0005F902 /* ProfileImage.swift in Sources */,
 				03B71C4F2936DDE8004204B7 /* ErrorHandler.swift in Sources */,
+				039226A3296373170005F902 /* ProfileViewModel.swift in Sources */,
+				039226A92963789A0005F902 /* QuickTScrollView.swift in Sources */,
 				03FA39FB29353763005BF200 /* Persistence.swift in Sources */,
 				033A77812961A91A00D8641A /* ProfilePic.swift in Sources */,
+				039226AB29637A160005F902 /* Conversions.swift in Sources */,
 				03BAA7EC29604B4F00878D0B /* QuickTStorage.swift in Sources */,
+				03C0AF87296492D000D5DA8E /* QuickTManager.swift in Sources */,
 				03FA39FE29353763005BF200 /* QuickThoughts.xcdatamodeld in Sources */,
 				03FA3A2829354019005BF200 /* Authentication.swift in Sources */,
+				03C0AF8D2964B05D00D5DA8E /* ProfilePicStorage.swift in Sources */,
 				03C1585D2949206400CE3505 /* QuickT.swift in Sources */,
+				039226A12963729D0005F902 /* Profile.swift in Sources */,
 				03564B3E293E782F00676ABD /* navBar.swift in Sources */,
 				03FA39F229353761005BF200 /* QuickThoughtsApp.swift in Sources */,
 				03564B3C293E782F00676ABD /* CustomNavLink.swift in Sources */,
 				03FA3A2C293542A4005BF200 /* LoginViewModel.swift in Sources */,
 				03C1585929491E1F00CE3505 /* TimelineView.swift in Sources */,
 				03C1585F294936EF00CE3505 /* TimelineQuickTView.swift in Sources */,
+				039226A52963775C0005F902 /* Settings.swift in Sources */,
 				03B71C522936E257004204B7 /* UserT.swift in Sources */,
 				03BB298F295F151400931908 /* User.swift in Sources */,
 			);

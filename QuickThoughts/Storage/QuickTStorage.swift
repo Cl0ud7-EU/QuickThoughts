@@ -46,11 +46,35 @@ class QuickTStorage
         return batchInsertRequest
     }
     
-    // Deletes 1 Object Synchronously
+    /// Fetch all the QuickTs from CoreData by specific User ID
+    func fetchQuickTsCoreData(id: Int32) throws -> [QuickT]
+    {
+        let context = PersistenceController.shared.container.viewContext
+        let fetchRequest = NSFetchRequest<QuickT>(entityName: "QuickT")
+        fetchRequest.predicate = NSPredicate(format: "userId == %ld", id)
+        fetchRequest.sortDescriptors = [NSSortDescriptor(keyPath: \QuickT.id, ascending: true)]
+        fetchRequest.fetchLimit = 50
+        let quickTs = try context.fetch(fetchRequest)
+        return quickTs
+    }
+    
+    /// Fetch all the QuickTs from CoreData
+    func fetchQuickTsCoreData() async throws -> [QuickT]
+    {
+        /// TEMPORARY: Fetch Quickts from CoreData
+        let context = PersistenceController.shared.container.viewContext
+        let fetchRequest = NSFetchRequest<QuickT>(entityName: "QuickT")
+        fetchRequest.sortDescriptors = [NSSortDescriptor(keyPath: \QuickT.id, ascending: true)]
+        fetchRequest.fetchLimit = 10
+        let quickTs = try context.fetch(fetchRequest)
+        return quickTs
+    }
+    
+    /// Deletes 1 Object Synchronously
     func deleteQuickT(objectID: NSManagedObject) {
         let viewContext = PersistenceController.shared.container.viewContext
         viewContext.delete(objectID)
-        // Save the changes to the context
+        /// Save the changes to the context
         do {
             try PersistenceController.shared.container.viewContext.save()
         } catch {

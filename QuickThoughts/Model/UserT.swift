@@ -11,7 +11,7 @@ import Foundation
 //**** This is temp, the app will use CoreData ***///
 
 class UserT: Codable {
-    var id: Int32    //UUID
+    var id: Int32    /// UUID
     var name: String
     var follows: [Int]? = []
     

@@ -40,7 +40,7 @@ class UserStorage: NSObject, ObservableObject
         var index = 0
         let total = propertyList.count
 
-        // Provide one dictionary at a time when the closure is called.
+        /// Provide one dictionary at a time when the closure is called.
         let batchInsertRequest = NSBatchInsertRequest(entity: User.entity(), dictionaryHandler: { dictionary in
             guard index < total else { return true }
             dictionary.addEntries(from: propertyList[index].dictionaryValue)
@@ -48,5 +48,15 @@ class UserStorage: NSObject, ObservableObject
             return false
         })
         return batchInsertRequest
+    }
+    
+    /// Fetch all the Users from CoreData by specific User ID
+    func fetchUserCoreData(id: Int32) throws -> User?
+    {
+        let context = PersistenceController.shared.container.viewContext
+        let fetchRequest = NSFetchRequest<User>(entityName: "User")
+        fetchRequest.predicate = NSPredicate(format: "id == %ld", id)
+        let user = try context.fetch(fetchRequest).first
+        return user
     }
 }

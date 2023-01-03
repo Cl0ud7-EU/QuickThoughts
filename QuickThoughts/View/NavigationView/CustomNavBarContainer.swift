@@ -32,7 +32,7 @@ struct CustomNavBarContainer<Content: View>: View {
             }
             content
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .ignoresSafeArea()
+                .ignoresSafeArea(.container, edges: .top)
         }
         .onPreferenceChange(NavBarTitleKey.self, perform: {
             value in

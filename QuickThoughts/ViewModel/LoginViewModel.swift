@@ -47,7 +47,7 @@ class LoginViewModel: ObservableObject
             let decodedData = try JSONDecoder().decode([UserT].self, from: data)
             //user = UserT(id: decodedData[0].id, name: decodedData[0].name)
       
-            // TEMPORARY: This user.id stuff needs to be changed to a key or something like that!!!!
+            /// TEMPORARY: This user.id stuff needs to be changed to a key or something like that!!!!
             //keychain.set(String(user.id), forKey: "id")
             keychain.set(String(decodedData[0].id), forKey: "id")
         } catch

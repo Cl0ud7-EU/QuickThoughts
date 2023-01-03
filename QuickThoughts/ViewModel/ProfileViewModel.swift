@@ -1,24 +1,21 @@
 //
-//  TimelineViewModel.swift
+//  ProfileViewModel.swift
 //  QuickThoughts
 //
 //  Created by Cl0ud7.
 //
 
 import Foundation
-import UIKit
 import CoreData
-import KeychainSwift
-
+import UIKit
 
 @MainActor
-class TimelineViewModel: ObservableObject
+class ProfileViewModel: ObservableObject
 {
-
-    let keychain = KeychainSwift()
     
-    @Published var timelineQuickTs: [QuickT] = []
-    @Published var timelineUsers: [Int32:User] = [:]
+    @Published var profileQuickTs: [QuickT] = []
+    @Published var profileTimelineUsers: [Int32:User] = [:]
+    @Published var imageProfile: UIImage?
     @Published var image: UIImage?
     
     let auth = Authentication.shared
@@ -26,6 +23,7 @@ class TimelineViewModel: ObservableObject
     struct Follows: Decodable {
         let idUserFollowed: Int
     }
+    var timelineUsersIds = Set<Int>()
     
     func fetchFollows() async throws
     {
@@ -58,22 +56,23 @@ class TimelineViewModel: ObservableObject
     {
         do
         {
-            try await QuickTManager.shared.fetchTimelineQuickTs(user: auth.getUser())
+            try await QuickTManager.shared.fetchProfileQuickTs(user: auth.getUser())
             
         } catch {
             throw ErrorHandler.fetchQuickTs
         }
         do
         {
-            try await timelineQuickTs = QuickTStorage.shared.fetchQuickTsCoreData()
+            try profileQuickTs = QuickTStorage.shared.fetchQuickTsCoreData(id: auth.getUser().id)
             
         } catch {
             throw ErrorHandler.coreDataError
         }
+
         
         /// TEMPORARY: This needs to be redone to work with only 1 request to the server!!!!
-        timelineUsers.removeAll()
-        for quickt in timelineQuickTs.reversed()
+        profileTimelineUsers.removeAll()
+        for quickt in profileQuickTs.reversed()
         {
             /// Check if user is already in CoreData Persistence
             var user: User? = nil
@@ -116,73 +115,37 @@ class TimelineViewModel: ObservableObject
                 } catch {
                     print(error)
                 }
-                timelineUsers[quickt.id] = user
+                profileTimelineUsers[quickt.id] = user
                 /// END
             } catch {
                 print(error)
             }
         }
     }
-    
-    private func fetchUser(userId: Int32) async throws
+    func getPic() async throws
     {
-        let url =  URL(string: urlHost+"user?id="+String(userId))!
-        
-        let (data, response) = try await URLSession.shared.data(from: url)
-        
-        guard let httpResponse = response as? HTTPURLResponse,
-              httpResponse.statusCode == 200 else {
-            throw ErrorHandler.invalidServerResponse
-        }
-        
+        /// Download ProfilePics if not already saved in CoreData
+        let userId = auth.getUser().id
+        var image: ProfilePic? = nil
         do
         {
-            let decodedData = try JSONDecoder().decode([UserDecodable].self, from: data)
-            //timelineUsers[decodedData[0].id] = decodedData[0]
-            print(decodedData[0])
-            try await UserStorage.shared.importUsers(users: decodedData)
+            image = try ProfilePicStorage.shared.fetchProfilePicCoreData(id: userId)
             
+            /// If not, fetch the user from the backend
+            if (image == nil)
+            {
+                try await ImageManager.shared.fetchProfilePic(idUser: userId)
+                
+                do
+                {
+                    image = try ProfilePicStorage.shared.fetchProfilePicCoreData(id: userId)
+                } catch {
+                    print(error)
+                }
+            }
+            self.imageProfile = base64DataToImage(image!.data)
         } catch {
-            throw ErrorHandler.fetchingUsers
-        }
-    }
-    
-    func downloadImage(idUser: Int32) async throws {
-
-        let url = URL(string: urlHost+"pic")!
-
-        let (data, response) = try await URLSession.shared.data(from: url)
-        
-        guard let httpResponse = response as? HTTPURLResponse,
-              httpResponse.statusCode == 200 else {
-            throw ErrorHandler.downloadingImage
-        }
-        
-        do
-        {
-            try await insertPic(data: data, idUser: idUser)
-        } catch {
-            throw ErrorHandler.invalidData
-        }
-    }
-    
-    func base64DataToImage(_ base64Data: Data) -> UIImage? {
-        guard let imageData = Data(base64Encoded: base64Data) else { return nil }
-        return UIImage(data: imageData)
-    }
-    
-    func insertPic(data: Data, idUser: Int32) async throws
-    {
-        let newProfilePic = ProfilePic(context: PersistenceController.shared.container.viewContext)
-        newProfilePic.idUser = idUser
-        newProfilePic.data = data
-        newProfilePic.url = ""
-
-        do {
-            try PersistenceController.shared.container.viewContext.save()
-        } catch {
-            let nsError = error as NSError
-            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            print(error)
         }
     }
 }
