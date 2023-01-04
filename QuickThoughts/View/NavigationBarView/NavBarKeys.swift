@@ -62,8 +62,6 @@ struct NavBarHiddenKey: PreferenceKey {
     }
 }
 
-
-// First, create an EquatableViewContainer we can use as preferenceKey data
 struct EquatableViewContainer: Equatable {
     
     let id = UUID().uuidString

@@ -10,7 +10,6 @@ import CoreData
 
 class QuickT: NSManagedObject
 {
-    
     /// Unique identifier to avoid duplicates
     @NSManaged var id: Int32
     
@@ -18,6 +17,15 @@ class QuickT: NSManagedObject
     @NSManaged var text: String
     //@NSManaged var imageData: String
     
+    
+    
+    private enum CodingKeys: CodingKey
+    {
+        case id
+        case text
+        case userId
+        //case imageData
+    }
     
 }
 
@@ -58,5 +66,14 @@ struct QuickTDecodable: Decodable
             "userId": self.userId,
             //"image_url": self.imageData
         ]
+    }
+}
+
+extension QuickT: Encodable {
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(id, forKey: .id)
+        try container.encode(text, forKey: .text)
+        try container.encode(userId, forKey: .userId)
     }
 }

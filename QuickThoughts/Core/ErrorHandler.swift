@@ -17,6 +17,7 @@ enum ErrorHandler: Error
     case fetchingUsers
     case fetchQuickTs
     case downloadingImage
+    case sendingQuickT
 }
 
 extension ErrorHandler: LocalizedError {
@@ -36,6 +37,8 @@ extension ErrorHandler: LocalizedError {
             return NSLocalizedString("Error fetching quickts", comment: "")
         case .downloadingImage:
             return NSLocalizedString("Error downloading image", comment: "")
+        case .sendingQuickT:
+            return NSLocalizedString("Error sending QuickT", comment: "")
         }
     }
 }

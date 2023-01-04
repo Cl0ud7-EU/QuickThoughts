@@ -10,7 +10,7 @@ import SwiftUI
 
 struct MainView: View {
     
-    //@StateObject var NewQuickTVieWModel = NewQuickTViewModel(text: "")
+    @StateObject var NewQuickTVieWModel = NewQuickTViewModel(text: "")
     @EnvironmentObject var auth: Authentication
     
     var body: some View {
@@ -20,7 +20,7 @@ struct MainView: View {
                 .navBarTitle(title: "QuickT")
                 .navBarBackButtonHidden(value: true)
             }
-            //.environmentObject(NewQuickTVieWModel)
+            .environmentObject(NewQuickTVieWModel)
             .tabItem {
                 Text("Timeline")
             }

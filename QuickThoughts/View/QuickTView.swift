@@ -10,40 +10,55 @@ import SwiftUI
 struct QuickTView: View {
     
     let quickt: QuickT
+    let profileImage: UIImage
+    var user: String
     var body: some View {
         VStack {
             HStack {
-                Image(systemName: "person.crop.circle.fill")
-                    .foregroundColor(.mint)
+                ProfileImage(image: profileImage, width: 35.0, height: 48.0, lineWidth: 1)
                     .frame(alignment: .leading)
-                    .padding(.leading, 30)
-                    
-                Text(String(quickt.userId))
-                    .foregroundColor(.white)
+                    .padding(.leading, 10)
+                Text(String(user))
+                    .foregroundColor(.black)
                     .frame(alignment: .leading)
                     .padding(.leading, 10)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.top, 10)
-            Text(quickt.text ?? "")
-                .foregroundColor(.white)
+            .padding([.leading, .trailing], 15)
+            .padding(.top, 5)
+            Text(quickt.text)
+                .multilineTextAlignment(.leading)
+                .foregroundColor(.black)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .padding([.leading, .bottom, .trailing], 30)
-                .padding(.top, 10)
+                .padding([.leading, .trailing], 30)
+                .padding(.bottom, 5)
+                .padding(.top, 5)
+            HStack {
+                Image(systemName: "message")
+                    .symbolRenderingMode(.monochrome)
+                    .foregroundColor(.gray)
+                Spacer()
+                Image(systemName: "star")
+                    .symbolRenderingMode(.monochrome)
+                    .foregroundColor(.gray)
+                Spacer()
+                Image(systemName: "ellipsis")
+                    .symbolRenderingMode(.monochrome)
+                    .foregroundColor(.gray)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding([.leading, .trailing], 30)
+            .padding([.top, .bottom], 5)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .frame(maxWidth: .infinity)
-        .background(Color.black)
+        .background(Color.white)
     }
 }
 
 //struct QuickTView_Previews: PreviewProvider {
-//    static let quickt = QuickT (
-//        id: 1,
-//        text: "Pois xa estaria, despois de facer unha libreria matemática propia aqui esta, rotación usando quaternions. Mostra angulos de euler pa que sea mais facil de modificar pero internamente a rotacion calculase con quaternions.",
-//        userId: 1
-//    )
 //    static var previews: some View {
-//        QuickTView(quickt: quickt)
+//        QuickTView(quickt: newQuickT)
+//            .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
 //    }
 //}

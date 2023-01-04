@@ -9,6 +9,7 @@ import SwiftUI
 
 struct navBar: View {
     
+    @State private var isError = false
     let titleText: String
 //    let subTitleText: String?
     let backButtonHidden: Bool
@@ -17,7 +18,7 @@ struct navBar: View {
     
     @Environment(\.presentationMode) var presentationMode
     
-    //@EnvironmentObject var NewQuickTVieWModel: NewQuickTViewModel
+    @EnvironmentObject var NewQuickTVieWModel: NewQuickTViewModel
     @EnvironmentObject var auth: Authentication
     
 
@@ -37,7 +38,7 @@ struct navBar: View {
             title
             Spacer()
             if !newQuickTButtonHidden {
-//                newQuickTButton
+                newQuickTButton
             }
             else if !sendQuickTButtonHidden {
                 sendQuickTButton
@@ -75,29 +76,34 @@ extension navBar {
         .frame(width: 100, alignment: .leading)
     }
     
-//    private var newQuickTButton: some View {
-//
-//        CustomNavLink(destination: NewQuickTView()
-//            .navBarTitle(title: "QuickT")
-//            .navBarNewQuickTButtonHidden(value: true)
-//            .navBarSendQuickTButtonHidden(value: false)
-//            .navBarBackButtonHidden(value: false)
-//        ) {
-//            Text("New QuickT")
-//        }
-//        .foregroundColor(.white)
-//        .frame(width: 100)
-//        .cornerRadius(6)
-//        .overlay(
-//            RoundedRectangle(cornerRadius: 6)
-//            .stroke(Color.white, lineWidth: 2)
-//        )
-//    }
+    private var newQuickTButton: some View {
+
+        CustomNavLink(destination: NewQuickTView()
+            .navBarTitle(title: "QuickT")
+            .navBarNewQuickTButtonHidden(value: true)
+            .navBarSendQuickTButtonHidden(value: false)
+            .navBarBackButtonHidden(value: false)
+        ) {
+            Text("New QuickT")
+        }
+        .foregroundColor(.white)
+        .frame(width: 100)
+        .cornerRadius(6)
+        .overlay(
+            RoundedRectangle(cornerRadius: 6)
+            .stroke(Color.white, lineWidth: 2)
+        )
+    }
     
     private var sendQuickTButton: some View {
         Button(action: {
-//            NewQuickTVieWModel.callAPI(userId: auth.user.id , completion: completion)
-//            presentationMode.wrappedValue.dismiss()
+            do
+            {
+                try NewQuickTVieWModel.sendQuickT(completion: completion)
+                presentationMode.wrappedValue.dismiss()
+            } catch {
+                //self.isError = true
+            }
         }, label: {
             Text("Send Quickt")
         })
@@ -107,7 +113,13 @@ extension navBar {
             RoundedRectangle(cornerRadius: 6)
                 .stroke(Color.white, lineWidth: 2)
             )
+//        .alert(isPresented: $isError) {
+//            Alert(title: Text("Error"),
+//                  message: Text(ErrorHandler.sendingQuickT.localizedDescription),
+//                  dismissButton: .default(Text("OK")))
+//        }
     }
+    
     
     private var title: some View {
         VStack {

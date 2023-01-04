@@ -15,7 +15,7 @@ struct TimelineQuickTView: View {
     var body: some View {
         VStack {
             HStack {
-                ProfileImage(image: (profileImage ?? UIImage(systemName: "person.circle.fill"))!, width: 35.0, height: 48.0, lineWidth: 1)
+                ProfileImage(image: profileImage, width: 35.0, height: 48.0, lineWidth: 1)
                     .frame(alignment: .leading)
                 Text(String(user))
                     .foregroundColor(.black)

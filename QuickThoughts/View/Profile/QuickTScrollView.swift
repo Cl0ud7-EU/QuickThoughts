@@ -19,7 +19,7 @@ struct QuickTScrollView: View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: .leading, spacing: 1.0) {
                 ForEach(timelineQuickTs.reversed(), id: \.id) { QuickT in
-                    CustomNavLink(destination: QuickTView(quickt: QuickT)
+                    CustomNavLink(destination: QuickTView(quickt: QuickT, profileImage: base64DataToImage((timelineUsers[QuickT.userId]?.profilePic!.data)!) ?? UIImage(), user: (timelineUsers[QuickT.userId]?.name ?? ""))
                         .navBarTitle(title: "QuickT")
                     ) {
                         TimelineQuickTView(quickt: QuickT, user: (timelineUsers[QuickT.userId]?.name ?? ""), profileImage: base64DataToImage((timelineUsers[QuickT.userId]?.profilePic!.data)!) ?? UIImage())

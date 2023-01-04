@@ -65,7 +65,7 @@ class QuickTStorage
         let context = PersistenceController.shared.container.viewContext
         let fetchRequest = NSFetchRequest<QuickT>(entityName: "QuickT")
         fetchRequest.sortDescriptors = [NSSortDescriptor(keyPath: \QuickT.id, ascending: true)]
-        fetchRequest.fetchLimit = 10
+        fetchRequest.fetchLimit = 50
         let quickTs = try context.fetch(fetchRequest)
         return quickTs
     }

@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		033A77812961A91A00D8641A /* ProfilePic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033A77802961A91A00D8641A /* ProfilePic.swift */; };
-		033A77832961B6ED00D8641A /* QuickTProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033A77822961B6ED00D8641A /* QuickTProfileImage.swift */; };
 		03564B34293E77A400676ABD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B33293E77A400676ABD /* MainView.swift */; };
 		03564B3B293E782F00676ABD /* CustomNavBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B36293E782F00676ABD /* CustomNavBarContainer.swift */; };
 		03564B3C293E782F00676ABD /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B37293E782F00676ABD /* CustomNavLink.swift */; };
 		03564B3D293E782F00676ABD /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B38293E782F00676ABD /* CustomNavigationView.swift */; };
 		03564B3E293E782F00676ABD /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B39293E782F00676ABD /* navBar.swift */; };
 		03564B3F293E782F00676ABD /* NavBarKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03564B3A293E782F00676ABD /* NavBarKeys.swift */; };
+		036EAE8D296599E400325B15 /* NewQuickTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE8C296599E400325B15 /* NewQuickTViewModel.swift */; };
+		036EAE8F29659A6B00325B15 /* NewQuickTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE8E29659A6B00325B15 /* NewQuickTView.swift */; };
 		039226A12963729D0005F902 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039226A02963729D0005F902 /* Profile.swift */; };
 		039226A3296373170005F902 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039226A2296373170005F902 /* ProfileViewModel.swift */; };
 		039226A52963775C0005F902 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039226A42963775C0005F902 /* Settings.swift */; };
@@ -70,13 +71,14 @@
 
 /* Begin PBXFileReference section */
 		033A77802961A91A00D8641A /* ProfilePic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePic.swift; sourceTree = "<group>"; };
-		033A77822961B6ED00D8641A /* QuickTProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTProfileImage.swift; sourceTree = "<group>"; };
 		03564B33293E77A400676ABD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		03564B36293E782F00676ABD /* CustomNavBarContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainer.swift; sourceTree = "<group>"; };
 		03564B37293E782F00676ABD /* CustomNavLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		03564B38293E782F00676ABD /* CustomNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		03564B39293E782F00676ABD /* navBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navBar.swift; sourceTree = "<group>"; };
 		03564B3A293E782F00676ABD /* NavBarKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarKeys.swift; sourceTree = "<group>"; };
+		036EAE8C296599E400325B15 /* NewQuickTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuickTViewModel.swift; sourceTree = "<group>"; };
+		036EAE8E29659A6B00325B15 /* NewQuickTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuickTView.swift; sourceTree = "<group>"; };
 		039226A02963729D0005F902 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		039226A2296373170005F902 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		039226A42963775C0005F902 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -150,7 +152,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03564B35293E77E500676ABD /* NavigationView */ = {
+		03564B35293E77E500676ABD /* NavigationBarView */ = {
 			isa = PBXGroup;
 			children = (
 				03564B36293E782F00676ABD /* CustomNavBarContainer.swift */,
@@ -159,7 +161,7 @@
 				03564B39293E782F00676ABD /* navBar.swift */,
 				03564B3A293E782F00676ABD /* NavBarKeys.swift */,
 			);
-			path = NavigationView;
+			path = NavigationBarView;
 			sourceTree = "<group>";
 		};
 		0392269F2963727B0005F902 /* Profile */ = {
@@ -199,7 +201,6 @@
 			children = (
 				03C1585829491E1F00CE3505 /* TimelineView.swift */,
 				03C1585E294936EF00CE3505 /* TimelineQuickTView.swift */,
-				033A77822961B6ED00D8641A /* QuickTProfileImage.swift */,
 			);
 			path = Timeline;
 			sourceTree = "<group>";
@@ -293,11 +294,12 @@
 		03FA3A212935393F005BF200 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0392269F2963727B0005F902 /* Profile */,
 				03FA3A292935420A005BF200 /* LoginView.swift */,
 				03C158602949376700CE3505 /* QuickTView.swift */,
+				036EAE8E29659A6B00325B15 /* NewQuickTView.swift */,
+				0392269F2963727B0005F902 /* Profile */,
 				03C1585729491E0200CE3505 /* Timeline */,
-				03564B35293E77E500676ABD /* NavigationView */,
+				03564B35293E77E500676ABD /* NavigationBarView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +310,7 @@
 				03FA3A2B293542A4005BF200 /* LoginViewModel.swift */,
 				03C1585A29491FD500CE3505 /* TimelineViewModel.swift */,
 				039226A2296373170005F902 /* ProfileViewModel.swift */,
+				036EAE8C296599E400325B15 /* NewQuickTViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -583,13 +586,13 @@
 				03564B3D293E782F00676ABD /* CustomNavigationView.swift in Sources */,
 				03C1585B29491FD500CE3505 /* TimelineViewModel.swift in Sources */,
 				03C0AF8B2964AF1E00D5DA8E /* ImageManager.swift in Sources */,
-				033A77832961B6ED00D8641A /* QuickTProfileImage.swift in Sources */,
 				039226A7296377EA0005F902 /* ProfileImage.swift in Sources */,
 				03B71C4F2936DDE8004204B7 /* ErrorHandler.swift in Sources */,
 				039226A3296373170005F902 /* ProfileViewModel.swift in Sources */,
 				039226A92963789A0005F902 /* QuickTScrollView.swift in Sources */,
 				03FA39FB29353763005BF200 /* Persistence.swift in Sources */,
 				033A77812961A91A00D8641A /* ProfilePic.swift in Sources */,
+				036EAE8F29659A6B00325B15 /* NewQuickTView.swift in Sources */,
 				039226AB29637A160005F902 /* Conversions.swift in Sources */,
 				03BAA7EC29604B4F00878D0B /* QuickTStorage.swift in Sources */,
 				03C0AF87296492D000D5DA8E /* QuickTManager.swift in Sources */,
@@ -598,6 +601,7 @@
 				03C0AF8D2964B05D00D5DA8E /* ProfilePicStorage.swift in Sources */,
 				03C1585D2949206400CE3505 /* QuickT.swift in Sources */,
 				039226A12963729D0005F902 /* Profile.swift in Sources */,
+				036EAE8D296599E400325B15 /* NewQuickTViewModel.swift in Sources */,
 				03564B3E293E782F00676ABD /* navBar.swift in Sources */,
 				03FA39F229353761005BF200 /* QuickThoughtsApp.swift in Sources */,
 				03564B3C293E782F00676ABD /* CustomNavLink.swift in Sources */,

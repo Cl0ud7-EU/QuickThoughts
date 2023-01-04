@@ -45,7 +45,7 @@ struct Profile: View {
                         .shadow(radius: 7)
                         .offset(y:  -90)
                         .padding(.bottom, -140)
-                    Text(viewModel.auth.getUser().name ?? "Name")
+                    Text(viewModel.auth.getUser().name)
                             .font(.title)
                             .padding(.top, 0)
     //                        .fixedSize(horizontal: true, vertical: false)
