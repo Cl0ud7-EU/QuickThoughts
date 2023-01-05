@@ -10,11 +10,20 @@ import PhotosUI
 
 struct Settings: View {
     
+    @ObservedObject var viewModel = SettingsViewModel()
     @State private var image = UIImage()
     @State private var showSheet = false
     
+    
     var body: some View {
         VStack {
+            Button(action: {
+                viewModel.deleteAllCoreData()
+            }, label: {
+                Text("Delete Data")
+                    .font(.largeTitle.weight(.light))
+            })
+            .foregroundColor(.mint)
             Text("Change photo")
                 .font(.headline)
                 .frame(maxWidth: .infinity)

@@ -59,13 +59,12 @@ class TimelineViewModel: ObservableObject
         do
         {
             try await QuickTManager.shared.fetchTimelineQuickTs(user: auth.getUser())
-            
         } catch {
             throw ErrorHandler.fetchQuickTs
         }
         do
         {
-            try await timelineQuickTs = QuickTStorage.shared.fetchQuickTsCoreData()
+            try timelineQuickTs = QuickTStorage.shared.fetchQuickTsCoreData()
             
         } catch {
             throw ErrorHandler.coreDataError
@@ -116,7 +115,7 @@ class TimelineViewModel: ObservableObject
                 } catch {
                     print(error)
                 }
-                timelineUsers[quickt.id] = user
+                timelineUsers[quickt.userId] = user
                 /// END
             } catch {
                 print(error)

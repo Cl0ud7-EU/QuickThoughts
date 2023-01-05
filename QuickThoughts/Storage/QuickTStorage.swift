@@ -59,7 +59,7 @@ class QuickTStorage
     }
     
     /// Fetch all the QuickTs from CoreData
-    func fetchQuickTsCoreData() async throws -> [QuickT]
+    func fetchQuickTsCoreData() throws -> [QuickT]
     {
         /// TEMPORARY: Fetch Quickts from CoreData
         let context = PersistenceController.shared.container.viewContext
@@ -80,6 +80,18 @@ class QuickTStorage
         } catch {
             let nsError = error as NSError
             fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+        }
+    }
+    
+    func deleteAll()
+    {
+        let viewContext = PersistenceController.shared.container.viewContext
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: QuickT.fetchRequest())
+
+        do {
+            try viewContext.execute(deleteRequest)
+        } catch let error as NSError {
+            // Handle the error
         }
     }
 }

@@ -115,7 +115,7 @@ class ProfileViewModel: ObservableObject
                 } catch {
                     print(error)
                 }
-                profileTimelineUsers[quickt.id] = user
+                profileTimelineUsers[quickt.userId] = user
                 /// END
             } catch {
                 print(error)
