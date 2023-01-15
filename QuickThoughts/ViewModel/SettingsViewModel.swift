@@ -14,5 +14,7 @@ class SettingsViewModel: ObservableObject
     func deleteAllCoreData()
     {
         QuickTStorage.shared.deleteAll()
+        UserStorage.shared.deleteAll()
+        ProfilePicStorage.shared.deleteAll()
     }
 }

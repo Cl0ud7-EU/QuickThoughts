@@ -1,6 +1,6 @@
 //
 //  navBar.swift
-//  Quickthoughts
+//  QuickThoughts
 //
 //  Created by Cl0ud7.
 //
@@ -18,7 +18,7 @@ struct navBar: View {
     
     @Environment(\.presentationMode) var presentationMode
     
-    @EnvironmentObject var NewQuickTVieWModel: NewQuickTViewModel
+    @EnvironmentObject var newQuickTViewModel: NewQuickTViewModel
     @EnvironmentObject var auth: Authentication
     
 
@@ -99,7 +99,7 @@ extension navBar {
         Button(action: {
             do
             {
-                try NewQuickTVieWModel.sendQuickT(completion: completion)
+                try newQuickTViewModel.sendQuickT(completion: completion)
                 presentationMode.wrappedValue.dismiss()
             } catch {
                 //self.isError = true

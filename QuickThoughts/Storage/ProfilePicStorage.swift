@@ -36,4 +36,17 @@ class ProfilePicStorage: NSObject, ObservableObject
         let profilePic = try context.fetch(fetchRequest).first
         return profilePic
     }
+    
+    /// Delete all ProfilePicStorage stored in coredata
+    func deleteAll()
+    {
+        let viewContext = PersistenceController.shared.container.viewContext
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: ProfilePic.fetchRequest())
+
+        do {
+            try viewContext.execute(deleteRequest)
+        } catch let error as NSError {
+            // Handle the error
+        }
+    }
 }

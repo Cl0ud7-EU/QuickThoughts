@@ -12,3 +12,9 @@ func base64DataToImage(_ base64Data: Data) -> UIImage? {
     guard let imageData = Data(base64Encoded: base64Data) else { return nil }
     return UIImage(data: imageData)
 }
+
+enum NavBarStates: Int
+{
+    case isVisible = 0
+    case isHidden = 1
+}

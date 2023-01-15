@@ -7,11 +7,25 @@
 
 import SwiftUI
 
+//class HideBarViewModel: ObservableObject {
+//    @Published var isHidden = false
+//    @Published var NavBarState = States.isVisible
+//
+//    enum States: Int
+//    {
+//        case isVisible = 0
+//        case isHidden = 1
+//        case onlyBackButton = 2
+//    }
+//}
 
 struct MainView: View {
     
-    @StateObject var NewQuickTVieWModel = NewQuickTViewModel(text: "")
+    @StateObject var newQuickTViewModel = NewQuickTViewModel(text: "")
     @EnvironmentObject var auth: Authentication
+    
+//    @ObservedObject var vm = HideBarViewModel()
+    @StateObject var navBarViewModel = NavBarViewModel()
     
     var body: some View {
         TabView {
@@ -20,19 +34,25 @@ struct MainView: View {
                 .navBarTitle(title: "QuickT")
                 .navBarBackButtonHidden(value: true)
             }
-            .environmentObject(NewQuickTVieWModel)
+            .environmentObject(newQuickTViewModel)
             .tabItem {
                 Text("Timeline")
             }
-            
-            NavigationView {
-                //SearchView()
+            CustomNavigationView {
+                SearchView()
+                .navBarTitle(title: "QuickT")
+                .navBarHidden(value: false)
+                .navBarBackButtonHidden(value: true)
+                //.navBarState(value: )
+                .navBarNewQuickTButtonHidden(value: true)
             }
+            //.environmentObject(navBarViewModel)
+            .environmentObject(newQuickTViewModel)
             .tabItem {
                     Text("Search")
 
             }
-            Profile()
+            Profile(user: Authentication.shared.getUser())
             .tabItem {
                     Text("Profile")
             }

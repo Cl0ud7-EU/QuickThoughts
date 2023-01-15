@@ -57,7 +57,6 @@ class ProfileViewModel: ObservableObject
         do
         {
             try await QuickTManager.shared.fetchProfileQuickTs(user: auth.getUser())
-            
         } catch {
             throw ErrorHandler.fetchQuickTs
         }

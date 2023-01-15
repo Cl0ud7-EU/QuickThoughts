@@ -50,7 +50,7 @@ class UserStorage: NSObject, ObservableObject
         return batchInsertRequest
     }
     
-    /// Fetch all the Users from CoreData by specific User ID
+    /// Fetch all Users from CoreData by specific User ID
     func fetchUserCoreData(id: Int32) throws -> User?
     {
         let context = PersistenceController.shared.container.viewContext
@@ -58,5 +58,18 @@ class UserStorage: NSObject, ObservableObject
         fetchRequest.predicate = NSPredicate(format: "id == %ld", id)
         let user = try context.fetch(fetchRequest).first
         return user
+    }
+    
+    /// Delete all users stored in coredata
+    func deleteAll()
+    {
+        let viewContext = PersistenceController.shared.container.viewContext
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: User.fetchRequest())
+
+        do {
+            try viewContext.execute(deleteRequest)
+        } catch let error as NSError {
+            // Handle the error
+        }
     }
 }

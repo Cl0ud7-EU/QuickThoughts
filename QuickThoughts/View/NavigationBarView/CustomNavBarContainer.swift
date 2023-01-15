@@ -18,8 +18,14 @@ struct CustomNavBarContainer<Content: View>: View {
     @State private var newQuickTButtonHidden: Bool = false
     @State private var sendQuickTButtonHidden: Bool = true
     @State private var navBarHidden: Bool = false
+    @State private var navBarState: NavBarStates = NavBarStates.isVisible
 
 //    @Binding var quickTtext: String?
+    
+    // Contain this view viewModel
+    @StateObject var navBarViewModel = NavBarViewModel()
+    
+    // Reference to the previous navBar ViewModel
     
     init(@ViewBuilder content: ()-> Content) {
         self.content = content()
@@ -27,12 +33,24 @@ struct CustomNavBarContainer<Content: View>: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            if !navBarHidden {
+//            if !navBarHidden {
+//                navBar(titleText: titleText, /*subTitleText: subTitleText,*/ backButtonHidden: backButtonHidden, newQuickTButtonHidden: newQuickTButtonHidden, sendQuickTButtonHidden: sendQuickTButtonHidden /*, quickTtext: $quickTtext*/)
+//            }
+//            content
+//                .frame(maxWidth: .infinity, maxHeight: .infinity)
+//                .ignoresSafeArea(.container, edges: .top)
+
+            switch navBarState {
+            case .isVisible:
                 navBar(titleText: titleText, /*subTitleText: subTitleText,*/ backButtonHidden: backButtonHidden, newQuickTButtonHidden: newQuickTButtonHidden, sendQuickTButtonHidden: sendQuickTButtonHidden /*, quickTtext: $quickTtext*/)
+                content
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .ignoresSafeArea(.container, edges: .top)
+            case .isHidden:
+                content
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .ignoresSafeArea(.container, edges: .top)
             }
-            content
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .ignoresSafeArea(.container, edges: .top)
         }
         .onPreferenceChange(NavBarTitleKey.self, perform: {
             value in
@@ -54,14 +72,17 @@ struct CustomNavBarContainer<Content: View>: View {
             value in
             self.navBarHidden = value
         })
+        .onPreferenceChange(NavBarStateKey.self, perform: {
+            value in
+            self.navBarState = value
+        })
     }
 }
-
-struct CustomNavBarContainer_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomNavBarContainer() {
-            Text("Hello")
-                .navBarTitle(title: "QuickT")
-        }
-    }
-}
+//struct CustomNavBarContainer_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CustomNavBarContainer() {
+//            Text("Hello")
+//                .navBarTitle(title: "QuickT")
+//        }
+//    }
+//}

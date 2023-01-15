@@ -62,6 +62,16 @@ struct NavBarHiddenKey: PreferenceKey {
     }
 }
 
+struct NavBarStateKey: PreferenceKey {
+    
+    typealias Value = NavBarStates
+    static var defaultValue: NavBarStates = .isVisible
+    
+    static func reduce(value: inout NavBarStates, nextValue: () -> NavBarStates) {
+        value = nextValue()
+    }
+}
+
 struct EquatableViewContainer: Equatable {
     
     let id = UUID().uuidString
@@ -91,6 +101,9 @@ extension View {
     }
     func navBarHidden( value: Bool ) -> some View {
         preference(key: NavBarHiddenKey.self, value: value)
+    }
+    func navBarState( value: NavBarStates ) -> some View {
+        preference(key: NavBarStateKey.self, value: value)
     }
 }
 

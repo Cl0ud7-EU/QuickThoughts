@@ -83,6 +83,7 @@ class QuickTStorage
         }
     }
     
+    /// Delete all QuitckTs stored in coredata
     func deleteAll()
     {
         let viewContext = PersistenceController.shared.container.viewContext
