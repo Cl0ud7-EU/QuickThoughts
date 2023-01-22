@@ -11,11 +11,11 @@ class ImageManager
 {
     static let shared: ImageManager = ImageManager()
     
-    func downloadImage(path: String) async throws -> Data
+    func downloadImage(path: String, picPath: String) async throws -> Data
     {
-
-        let url = URL(string: urlHost+path)!
-
+        let ruta = path+"?picPath="+picPath
+        
+        let url = URL(string: urlHost+ruta)!
         let (data, response) = try await URLSession.shared.data(from: url)
         
         guard let httpResponse = response as? HTTPURLResponse,
@@ -25,15 +25,18 @@ class ImageManager
         return data
     }
     
-    func fetchProfilePic(idUser: Int32) async throws
+    func fetchProfilePic(user: User) async throws
     {
-        /// TEMPORARY: Change path to the real path
-        let data =  try await downloadImage(path: "pic")
-        do
+        print(user)
+        if user.profilePicURL != nil && user.profilePicURL != ""
         {
-            try await ProfilePicStorage.shared.importPic(data: data, idUser: idUser)
-        } catch {
-            throw ErrorHandler.invalidData
+            let data =  try await downloadImage(path: "pic", picPath: user.profilePicURL!)
+            do
+            {
+                try await ProfilePicStorage.shared.importPic(data: data, idUser: user.id)
+            } catch {
+                throw ErrorHandler.invalidData
+            }
         }
     }
 }

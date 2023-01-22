@@ -14,6 +14,7 @@ enum ErrorHandler: Error
     case invalidData
     case jsonEncoderError
     case coreDataError
+    case loginError
     case fetchingUsers
     case fetchQuickTs
     case downloadingImage
@@ -31,6 +32,8 @@ extension ErrorHandler: LocalizedError {
             return NSLocalizedString("Error encoding data to Json", comment: "")
         case .coreDataError:
             return NSLocalizedString("Error with coreData", comment: "")
+        case .loginError:
+            return NSLocalizedString("Login Error", comment: "")
         case .fetchingUsers:
             return NSLocalizedString("Error fetching users", comment: "")
         case .fetchQuickTs:

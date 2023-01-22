@@ -12,7 +12,7 @@ class QuickTManager
     static let shared: QuickTManager = QuickTManager()
     
     /// Fetch QuickTs from database and save them in CoreData
-    func fetchProfileQuickTs(user: UserT) async throws
+    func fetchProfileQuickTs(user: User) async throws
     {
         let url = URL(string: urlHost+"user/quickTs?id="+String(user.id))!
         
@@ -34,9 +34,9 @@ class QuickTManager
         }
     }
     
-    func fetchTimelineQuickTs(user: UserT) async throws
+    func fetchTimelineQuickTs(user: User) async throws
     {
-        if (!user.follows!.isEmpty)
+        if (user.follows != nil)
         {
             guard let jsonFollows = try? JSONEncoder().encode(user.follows) else {
                 throw ErrorHandler.jsonEncoderError

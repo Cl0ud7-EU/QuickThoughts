@@ -8,29 +8,34 @@
 import Foundation
 import KeychainSwift
 
+@MainActor
 class Authentication: ObservableObject {
     
     let keychain = KeychainSwift()
-    @Published private var user: UserT
+    private var user: User?
     @Published private var loggedStatus: Bool = false
     
     static let shared = Authentication()
     
     init()
     {
-        user = UserT()
-        setLoggedStatus()
-        //setLoggedStatus()
+        do {
+            try setLoggedStatus()
+        }
+        catch {
+            print("AUTH ERROR:", error)
+        }
     }
-    func setLoggedStatus()
+    func setLoggedStatus() throws
     {
         if keychain.get("id") != "" && keychain.get("id") != nil
         {
-//            print (keychain.get("id"))
-            let user = UserT(id: Int32(keychain.get("id")!)!, name: "Cl0ud7")
+            guard let id = Int32(keychain.get("id")!) else {
+                throw ErrorHandler.loginError }
+            guard let user = try UserStorage.shared.fetchUserCoreData(id: id)
+            else { throw ErrorHandler.coreDataError }
             setUser(user: user)
             loggedStatus = true
-            
         }
         else
         {
@@ -41,12 +46,12 @@ class Authentication: ObservableObject {
     {
         return loggedStatus
     }
-    func setUser(user: UserT)
+    func setUser(user: User)
     {
         self.user = user
     }
-    func getUser() -> UserT
+    func getUser() -> User
     {
-        return user
+        return user!
     }
 }
