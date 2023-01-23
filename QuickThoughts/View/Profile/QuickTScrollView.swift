@@ -13,6 +13,7 @@ struct QuickTScrollView: View {
     let timelineUsers: [Int32:User]
     
     let image = UIImage(named: "ProfileBG")!
+    //let image = UIImage(named: "Default")!
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {

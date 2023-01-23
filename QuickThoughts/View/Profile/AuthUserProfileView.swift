@@ -12,6 +12,7 @@ struct AuthUserProfileView: View {
     @ObservedObject var viewModel = ProfileViewModel(user: Authentication.shared.getUser())
     @Environment(\.presentationMode) var presentationMode
     var backButtonHidden = false
+    let image = UIImage(named: "ProfileBG")!
     
     var body: some View {
         CustomNavigationView {
@@ -54,13 +55,14 @@ struct AuthUserProfileView: View {
                                 Spacer()
                             }
                             .frame(height: 100)
+                            .offset(y: 10)
                             .padding(.trailing)
                         }
                         .frame(maxWidth: .infinity, alignment: .topTrailing)
                     }
                 }
                 HStack() {
-                    ProfileImage(image: (viewModel.imageProfile ?? UIImage(systemName: "person.circle.fill"))!, width: 140.0, height: 190.0, lineWidth: 4)
+                    ProfileImage(image: (viewModel.imageProfile ?? image)!, width: 140.0, height: 190.0, lineWidth: 4)
                         .shadow(radius: 7)
                         .offset(y:  -90)
                         .padding(.bottom, -140)

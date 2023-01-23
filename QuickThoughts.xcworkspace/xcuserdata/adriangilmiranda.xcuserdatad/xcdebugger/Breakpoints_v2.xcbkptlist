@@ -1811,8 +1811,8 @@
             filePath = "QuickThoughts/View/Profile/QuickTScrollView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -2381,69 +2381,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C47751E9-6A49-47BA-9E2C-19ABE964B1D2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "C47751E9-6A49-47BA-9E2C-19ABE964B1D2 - 34478564d508796f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in QuickThoughts.ExternalUserProfileView.body.getter : some"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/ExternalUserProfileView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "74">
-               </Location>
-               <Location
-                  uuid = "C47751E9-6A49-47BA-9E2C-19ABE964B1D2 - c733469649afe1d9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in QuickThoughts.ExternalUserProfileView.body.getter : some"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/ExternalUserProfileView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "49">
-               </Location>
-               <Location
-                  uuid = "C47751E9-6A49-47BA-9E2C-19ABE964B1D2 - 7475e7ebc77481e8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(6) suspend resume partial function for closure #2 @Sendable () async -&gt; () in QuickThoughts.ExternalUserProfileView.body.getter : some"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/ExternalUserProfileView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "64">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D383635C-1BAC-42F0-9BC3-6C0BA653953B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -2451,8 +2388,8 @@
             filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -2467,8 +2404,8 @@
             filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -2483,8 +2420,8 @@
             filePath = "QuickThoughts/View/Profile/AuthUserProfileView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -2531,8 +2468,8 @@
             filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>

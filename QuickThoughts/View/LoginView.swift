@@ -40,7 +40,7 @@ struct LoginView: View {
                     .overlay(RoundedRectangle(cornerRadius: 5.0).strokeBorder(Color.mint, style: StrokeStyle(lineWidth: 1.0)))
             }
             .padding(20)
-            Button("LOGIN") {
+            Button("LOG IN") {
                 Task {
                     do {
                         try await viewModel.logIn()
@@ -57,6 +57,20 @@ struct LoginView: View {
             .background(RoundedRectangle(cornerRadius: 30).fill(Color.mint))
             Spacer()
             Spacer()
+            Button("SIGN UP") {
+                Task {
+                    do {
+                       //TODO
+                    }
+                    catch {
+    
+                    }
+                }
+            }
+            .foregroundColor(Color.white)
+            .padding(7)
+            .frame(width: 100, height: 30)
+            .background(RoundedRectangle(cornerRadius: 30).fill(Color.blue))
         }
     }
 }

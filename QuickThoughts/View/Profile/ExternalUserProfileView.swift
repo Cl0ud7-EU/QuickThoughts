@@ -13,6 +13,7 @@ struct ExternalUserProfileView: View {
     @ObservedObject var viewModel: ProfileViewModel
 
     @Environment(\.presentationMode) var presentationMode
+    let image = UIImage(named: "ProfileBG")!
     
     var body: some View {
         VStack(spacing: 0) {
@@ -34,12 +35,64 @@ struct ExternalUserProfileView: View {
                         }
                         .frame(height: 180)
                         .offset(x: 5, y: -25)
+                        VStack {
+                            if(Authentication.shared.getUser().follows != nil)
+                            {
+                                if (Authentication.shared.getUser().follows!.contains(viewModel.user.id))
+                                {
+                                    Text("Unfollow")
+                                        .font(.headline)
+                                        .frame(maxWidth: 100)
+                                        .background(.mint)
+                                        .cornerRadius(30)
+                                        .foregroundColor(.white)
+                                        //.padding(.horizontal, 10)
+                                        .onTapGesture {
+                                            Task {
+                                                do
+                                                {
+                                                    print("Followed")//try await follow()
+                                                }
+                                                catch
+                                                {
+                                                    
+                                                }
+                                            }
+                                        }
+                                }
+                                else
+                                {
+                                    Text("Follow")
+                                        .font(.headline)
+                                        .frame(maxWidth: 100)
+                                        .background(.mint)
+                                        .cornerRadius(30)
+                                        .foregroundColor(.white)
+                                        //.padding(.horizontal, 10)
+                                        .onTapGesture {
+                                            Task {
+                                                do
+                                                {
+                                                    print("Unfollowed")//try await follow()
+                                                }
+                                                catch
+                                                {
+                                                    
+                                                }
+                                            }
+                                        }
+                                }
+                            }
+                        }
+                        .frame(height: 180)
+                        .offset(x: -20,y: 70)
+                        .frame(maxWidth: .infinity, alignment: .trailing)
                     }
                     .frame(maxWidth: .infinity, alignment: .topLeading)
                 }
             }
             HStack() {
-                ProfileImage(image: (viewModel.imageProfile ?? UIImage(systemName: "person.circle.fill"))!, width: 140.0, height: 190.0, lineWidth: 4)
+                ProfileImage(image: (viewModel.imageProfile ?? image), width: 140.0, height: 190.0, lineWidth: 4)
                     .shadow(radius: 7)
                     .offset(y:  -90)
                     .padding(.bottom, -140)
@@ -48,6 +101,7 @@ struct ExternalUserProfileView: View {
                     .padding(.top, 0)
                 //                        .fixedSize(horizontal: true, vertical: false)
                     .frame(maxWidth: 200, alignment: .leading)
+                
             }
             VStack(alignment: .leading) {
                 HStack {
@@ -62,7 +116,7 @@ struct ExternalUserProfileView: View {
                     Text("Followers ")
                     Button(action: {
                     }, label: {
-                        Text(String(viewModel.user.follows?.count ?? 0))
+                        Text(String(/*viewModel.user.follows?.count ??*/ 1))
                     })
                     .foregroundColor(.mint)
                 }
@@ -102,6 +156,7 @@ struct ExternalUserProfileView: View {
 }
 
 //struct ExternalUserProfileView_Previews: PreviewProvider {
+//
 //    static var previews: some View {
 //        ExternalUserProfileView()
 //    }
