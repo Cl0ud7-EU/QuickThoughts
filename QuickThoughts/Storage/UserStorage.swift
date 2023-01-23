@@ -60,6 +60,24 @@ class UserStorage: NSObject, ObservableObject
         return user
     }
     
+    func fetchAllUsers() throws -> [User]
+    {
+        let context = PersistenceController.shared.container.viewContext
+        let fetchRequest = NSFetchRequest<User>(entityName: "User")
+        let user = try context.fetch(fetchRequest)
+        return user
+    }
+    
+    func fetchUsersByNameCoreData(name: String) throws -> [User]
+    {
+        let context = PersistenceController.shared.container.viewContext
+        let fetchRequest = NSFetchRequest<User>(entityName: "User")
+        fetchRequest.predicate = NSPredicate(format: "name CONTAINS %@", name)
+
+        let users = try context.fetch(fetchRequest)
+        return users
+    }
+    
     /// Delete all users stored in coredata
     func deleteAll()
     {

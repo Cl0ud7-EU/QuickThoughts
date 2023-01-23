@@ -63,7 +63,7 @@ class NewQuickTViewModel:  ObservableObject
             /// If not, fetch the user from the backend
             if (image == nil)
             {
-                try await ImageManager.shared.fetchProfilePic(idUser: userId)
+                try await ImageManager.shared.fetchProfilePic(user: auth.getUser())
                 
                 do
                 {

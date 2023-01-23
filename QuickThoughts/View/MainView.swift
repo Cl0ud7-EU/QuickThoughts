@@ -52,7 +52,7 @@ struct MainView: View {
                     Text("Search")
 
             }
-            Profile(user: Authentication.shared.getUser())
+            Profile(viewModel: nil)
             .tabItem {
                     Text("Profile")
             }

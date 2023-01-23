@@ -27,7 +27,6 @@ class ImageManager
     
     func fetchProfilePic(user: User) async throws
     {
-        print(user)
         if user.profilePicURL != nil && user.profilePicURL != ""
         {
             let data =  try await downloadImage(path: "pic", picPath: user.profilePicURL!)

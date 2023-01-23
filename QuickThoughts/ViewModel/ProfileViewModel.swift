@@ -12,22 +12,26 @@ import UIKit
 @MainActor
 class ProfileViewModel: ObservableObject
 {
-    
+    let user: User
     @Published var profileQuickTs: [QuickT] = []
     @Published var profileTimelineUsers: [Int32:User] = [:]
     @Published var imageProfile: UIImage?
-    @Published var image: UIImage?
     
     let auth = Authentication.shared
     
+    init(user: User)
+    {
+        self.user = user;
+    }
+    
     struct Follows: Decodable {
-        let idUserFollowed: Int
+        let idUserFollowed: Int32
     }
     var timelineUsersIds = Set<Int>()
     
     func fetchFollows() async throws
     {
-        let url = URL(string: urlHost+"user/follows?id="+String(auth.getUser().id))!
+        let url = URL(string: urlHost+"user/follows?id="+String(user.id))!
         
         let (data, response) = try await URLSession.shared.data(from: url)
         
@@ -41,11 +45,11 @@ class ProfileViewModel: ObservableObject
             let decodedData = try JSONDecoder().decode([Follows].self, from: data)
             
             /// TEMPORARY: This needs to use CoreData
-            auth.getUser().follows?.removeAll()
+            user.follows?.removeAll()
             for follow in decodedData {
-                auth.getUser().follows?.append(follow.idUserFollowed)
+                user.follows?.append(follow.idUserFollowed)
             }
-            //auth.getUser().follows = decodedData
+            //user.follows = decodedData
 
         } catch {
             throw ErrorHandler.invalidData
@@ -56,13 +60,13 @@ class ProfileViewModel: ObservableObject
     {
         do
         {
-            try await QuickTManager.shared.fetchProfileQuickTs(user: auth.getUser())
+            try await QuickTManager.shared.fetchProfileQuickTs(user: user)
         } catch {
             throw ErrorHandler.fetchQuickTs
         }
         do
         {
-            try profileQuickTs = QuickTStorage.shared.fetchQuickTsCoreData(id: auth.getUser().id)
+            try profileQuickTs = QuickTStorage.shared.fetchQuickTsCoreData(id: user.id)
             
         } catch {
             throw ErrorHandler.coreDataError
@@ -101,7 +105,7 @@ class ProfileViewModel: ObservableObject
                     /// If not, fetch the ProfilePic from the backend
                     if (image == nil)
                     {
-                        try await ImageManager.shared.fetchProfilePic(idUser: quickt.userId)
+                        try await ImageManager.shared.fetchProfilePic(user: user!)
                         
                         do
                         {
@@ -124,7 +128,7 @@ class ProfileViewModel: ObservableObject
     func getPic() async throws
     {
         /// Download ProfilePics if not already saved in CoreData
-        let userId = auth.getUser().id
+        let userId = user.id
         var image: ProfilePic? = nil
         do
         {
@@ -133,7 +137,7 @@ class ProfileViewModel: ObservableObject
             /// If not, fetch the user from the backend
             if (image == nil)
             {
-                try await ImageManager.shared.fetchProfilePic(idUser: userId)
+                try await ImageManager.shared.fetchProfilePic(user: user)
                 
                 do
                 {
@@ -142,7 +146,11 @@ class ProfileViewModel: ObservableObject
                     print(error)
                 }
             }
-            self.imageProfile = base64DataToImage(image!.data)
+            if (image != nil)
+            {
+                self.imageProfile = base64DataToImage(image!.data)
+            }
+            
         } catch {
             print(error)
         }

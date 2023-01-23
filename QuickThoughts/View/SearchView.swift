@@ -10,22 +10,16 @@ import Combine
 
 struct SearchView: View {
     
-    @ObservedObject var viewmodel = SearchViewModel()
-    
-    let names = ["Holly", "Josh", "Rhonda", "Ted"]
-    @State private var searchText = ""
-    @State private var isEditing = false
-    
+    @ObservedObject var viewModel = SearchViewModel()
 
-    
+    @State private var isEditing = false
     
     var body: some View {
         
         VStack {
             /// SearchBar
             HStack {
-                
-                TextField("Search ...", text: $viewmodel.userNameSearch)
+                TextField("Search ...", text: $viewModel.userNameSearch)
                     .padding(7)
                     .padding(.horizontal, 25)
                     .background(Color(.systemGray6))
@@ -34,17 +28,25 @@ struct SearchView: View {
                     .onTapGesture {
                         self.isEditing = true
                     }
-
-                Button(action: {
-                    viewmodel.searchUsers()
-                }) {
-                    Text("Search")
-                }
+                    .onChange(of: viewModel.userNameSearch) { value in
+                        Task {
+                            if(!value.isEmpty && value.count > 2)
+                            {
+                                do
+                                {
+                                    try await viewModel.searchUsers()
+                                }
+                                catch {
+                                    print("ERROR SEARCHING USERS:", error)
+                                }
+                            }
+                        }
+                    }
                 
                 if isEditing {
                     Button(action: {
                         self.isEditing = false
-                        self.searchText = ""
+                        self.viewModel.userNameSearch = ""
                         
                     }) {
                         Text("Cancel")
@@ -57,24 +59,17 @@ struct SearchView: View {
             .frame(maxHeight: 50)
             
             List {
-                ForEach(viewmodel.searchResults, id: \.self) { user in
-                    CustomNavLink(destination: Profile(user: UserT())
+                ForEach(viewModel.searchResults, id: \.self) { user in
+                    CustomNavLink(destination: Profile(viewModel: ProfileViewModel(user: user))
                         .navBarNewQuickTButtonHidden(value: true)
                         .navBarBackButtonHidden(value: false)
                     ) {
-                        Text(user.name)
+                        Text(String(user.name))
                     }
                 }.listRowBackground(Color.white)
             }
             .scrollContentBackground(.hidden)
         }
-    }
-    var searchResults: [String] {
-            if searchText.isEmpty {
-                return names
-            } else {
-                return names.filter { $0.contains(searchText) }
-            }
     }
 }
 

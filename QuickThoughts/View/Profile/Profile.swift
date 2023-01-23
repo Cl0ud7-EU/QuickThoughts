@@ -9,20 +9,25 @@ import SwiftUI
 
 struct Profile: View {
     
-    // TEMPORARY: Change it to User(coredata)
-    let user: UserT
-    //@EnvironmentObject var vm: HideBarViewModel
-    
-    //let defaultimg = UIImage(named: "Cl0ud7")!
+
+    let viewModel: ProfileViewModel?
     var body: some View {
-            if (user.id == Authentication.shared.getUser().id)
+        
+        if (viewModel != nil)
+        {
+            if (viewModel!.user.id == Authentication.shared.getUser().id)
             {
-                    AuthUserProfileView()
+                AuthUserProfileView()
             }
             else
             {
-                    ExternalUserProfileView()
+                ExternalUserProfileView(viewModel: viewModel!)
             }
+        }
+        else
+        {
+            AuthUserProfileView(backButtonHidden: true)
+        }
     }
 }
 

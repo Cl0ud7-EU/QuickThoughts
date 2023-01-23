@@ -32,7 +32,8 @@ class QuickTStorage
         }
     }
     
-    private func newBatchInsertRequest(with propertyList: [QuickTDecodable]) -> NSBatchInsertRequest {
+    private func newBatchInsertRequest(with propertyList: [QuickTDecodable]) -> NSBatchInsertRequest
+    {
         var index = 0
         let total = propertyList.count
 

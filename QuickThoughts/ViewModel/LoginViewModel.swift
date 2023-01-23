@@ -31,7 +31,7 @@ class LoginViewModel: ObservableObject
         password = keychain.get("password") ?? ""
     }
 
-    func logIn() async throws //-> UserT
+    func logIn() async throws
     {
         let url = URL(string: urlHost+"user?id="+username)!
         
@@ -44,16 +44,21 @@ class LoginViewModel: ObservableObject
         
         do
         {
-            let decodedData = try JSONDecoder().decode([UserT].self, from: data)
-            //user = UserT(id: decodedData[0].id, name: decodedData[0].name)
-      
-            /// TEMPORARY: This user.id stuff needs to be changed to a key or something like that!!!!
-            //keychain.set(String(user.id), forKey: "id")
-            keychain.set(String(decodedData[0].id), forKey: "id")
-        } catch
-        {
+            let decodedData = try JSONDecoder().decode([UserDecodable].self, from: data)
+            if  (decodedData.count > 0) {
+                try await UserStorage.shared.importUsers(users: decodedData)
+                
+                do
+                {
+                    let user = try UserStorage.shared.fetchUserCoreData(id: decodedData[0].id)
+                    keychain.set(String(decodedData[0].id), forKey: "id")
+                    keychain.set(String(decodedData[0].id), forKey: "username")
+                } catch {
+                    throw ErrorHandler.coreDataError
+                }
+            }
+        } catch {
             throw ErrorHandler.invalidData
         }
-        //return user
     }
 }

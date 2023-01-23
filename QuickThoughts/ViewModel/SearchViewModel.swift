@@ -11,31 +11,39 @@ import Foundation
 @MainActor
 class SearchViewModel: ObservableObject
 {
-    @Published var searchResults: [UserDecodable] = []
+    @Published var searchResults: [User] = []
     @Published var userNameSearch = ""
     
-    func searchUsers()
+    func searchUsers() async throws
     {
-        let url = URL(string: urlHost+"searchUser")!
-
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-            
-        let json: [String: Any] = [
-            "searchTerm": userNameSearch
-        ]
-        let jsonData = try? JSONSerialization.data(withJSONObject: json)
-        request.httpBody = jsonData
         
-        URLSession.shared.dataTask(with: request) { data, response, error in
-            if let data = data {
-                let searchResults = try? JSONDecoder().decode([UserDecodable].self, from: data)
-
-                DispatchQueue.main.async {
-                    self.searchResults = searchResults ?? []
-                }
+        let url = URL(string: urlHost+"searchUser?name="+userNameSearch)!
+        
+        let (data, response) = try await URLSession.shared.data(from: url)
+        
+        guard let httpResponse = response as? HTTPURLResponse,
+              httpResponse.statusCode == 200 else {
+            throw ErrorHandler.invalidServerResponse
+        }
+        
+        do
+        {
+            let decodedData = try JSONDecoder().decode([UserDecodable].self, from: data)
+            try await UserStorage.shared.importUsers(users: decodedData)
+            do
+            {
+                try searchResults = UserStorage.shared.fetchUsersByNameCoreData(name: userNameSearch)
+                
+            } catch {
+                throw ErrorHandler.coreDataError
             }
-        }.resume()
+            
+        } catch {
+            throw ErrorHandler.fetchingUsers
+        }
+//                DispatchQueue.main.async {
+//                    self.searchResults = searchResults ?? []
+//                }
     }
+    
 }

@@ -24,7 +24,7 @@ class TimelineViewModel: ObservableObject
     let auth = Authentication.shared
     
     struct Follows: Decodable {
-        let idUserFollowed: Int
+        let idUserFollowed: Int32
     }
     
     func fetchFollows() async throws
@@ -45,8 +45,19 @@ class TimelineViewModel: ObservableObject
             /// TEMPORARY: This needs to use CoreData
             auth.getUser().follows?.removeAll()
             for follow in decodedData {
-                auth.getUser().follows?.append(follow.idUserFollowed)
+                if auth.getUser().follows != nil {
+                    auth.getUser().follows?.append(follow.idUserFollowed)
+                } else {
+                    auth.getUser().follows = [follow.idUserFollowed]
+                }
             }
+            /// TEMPORARY
+//            do {
+//                try PersistenceController.shared.container.viewContext.save()
+//            } catch {
+//                let nsError = error as NSError
+//                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+//            }
             //auth.getUser().follows = decodedData
 
         } catch {
@@ -102,7 +113,7 @@ class TimelineViewModel: ObservableObject
                     /// If not, fetch the ProfilePic from the backend
                     if (image == nil)
                     {
-                        try await ImageManager.shared.fetchProfilePic(idUser: quickt.userId)
+                        try await ImageManager.shared.fetchProfilePic(user: user!)
                         
                         do
                         {
@@ -137,10 +148,7 @@ class TimelineViewModel: ObservableObject
         do
         {
             let decodedData = try JSONDecoder().decode([UserDecodable].self, from: data)
-            //timelineUsers[decodedData[0].id] = decodedData[0]
-            print(decodedData[0])
             try await UserStorage.shared.importUsers(users: decodedData)
-            
         } catch {
             throw ErrorHandler.fetchingUsers
         }

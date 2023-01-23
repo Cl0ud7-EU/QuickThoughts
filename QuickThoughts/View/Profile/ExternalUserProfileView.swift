@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ExternalUserProfileView: View {
     
-    @ObservedObject var viewModel = ProfileViewModel(/*user*/)
+    //var user: User
+    @ObservedObject var viewModel: ProfileViewModel
 
     @Environment(\.presentationMode) var presentationMode
     
@@ -35,7 +36,6 @@ struct ExternalUserProfileView: View {
                         .offset(x: 5, y: -25)
                     }
                     .frame(maxWidth: .infinity, alignment: .topLeading)
-                    
                 }
             }
             HStack() {
@@ -43,7 +43,7 @@ struct ExternalUserProfileView: View {
                     .shadow(radius: 7)
                     .offset(y:  -90)
                     .padding(.bottom, -140)
-                Text(viewModel.auth.getUser().name)
+                Text(viewModel.user.name)
                     .font(.title)
                     .padding(.top, 0)
                 //                        .fixedSize(horizontal: true, vertical: false)
@@ -54,7 +54,7 @@ struct ExternalUserProfileView: View {
                     Text("Follows ")
                     Button(action: {
                     }, label: {
-                        Text(String(viewModel.auth.getUser().follows?.count ?? 0))
+                        Text(String(viewModel.user.follows?.count ?? 0))
                     })
                     .foregroundColor(.mint)
                 }
@@ -62,7 +62,7 @@ struct ExternalUserProfileView: View {
                     Text("Followers ")
                     Button(action: {
                     }, label: {
-                        Text(String(viewModel.auth.getUser().follows?.count ?? 0))
+                        Text(String(viewModel.user.follows?.count ?? 0))
                     })
                     .foregroundColor(.mint)
                 }
@@ -101,8 +101,8 @@ struct ExternalUserProfileView: View {
     }
 }
 
-struct ExternalUserProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        ExternalUserProfileView()
-    }
-}
+//struct ExternalUserProfileView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ExternalUserProfileView()
+//    }
+//}

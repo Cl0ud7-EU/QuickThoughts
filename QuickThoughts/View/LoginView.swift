@@ -11,7 +11,6 @@ struct LoginView: View {
     
     var auth: Authentication = .shared
     
-    //@EnvironmentObject var auth: Authentication
     @ObservedObject var viewModel: LoginViewModel = LoginViewModel()
     
     @State private var username: String = ""
@@ -44,12 +43,11 @@ struct LoginView: View {
             Button("LOGIN") {
                 Task {
                     do {
-                        //try await auth.setUser(user: viewModel.logIn())
                         try await viewModel.logIn()
-                        auth.setLoggedStatus()
+                        try auth.setLoggedStatus()
                     }
                     catch {
-                        print("ERROR LOGIN:", error)
+                        print("LOGIN ERROR:", error)
                     }
                 }
             }
