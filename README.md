@@ -28,7 +28,6 @@
   <a href="#credits">Credits</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/agilmi00/readmeImages/blob/d761f2c4207d2dd8e99e456b7c84ba83a7e03cb9/QTsAPPIcon.png)
 
 ## What is this?
 
@@ -45,6 +44,18 @@ This application is a personal project to improve my skills in iOS development s
 * Follow other users to read their thoughts in yout timeline
 
 ## Pictures
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/36732835/214177499-7d84614e-74d6-4ade-9dda-bd11f14f5b08.png" alt="drawing" width="200"/>
+  <img src="https://user-images.githubusercontent.com/36732835/214176597-c4c7a40c-60bb-49af-9482-df68bd5a409f.png" alt="drawing" width="200"/>
+  <img src="https://user-images.githubusercontent.com/36732835/214177653-b55f9c18-9224-4120-80f5-843549695cf8.png" alt="drawing" width="200"/>
+  <img src="https://user-images.githubusercontent.com/36732835/214177783-948ddfbc-e7ed-4b94-b3d2-dcbe936d4251.png" alt="drawing" width="200"/>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/36732835/214177873-dc9d179d-9a94-4512-abf6-72fcf3e7111b.png" alt="drawing" width="200"/>
+  <img src="https://user-images.githubusercontent.com/36732835/214177948-10537a72-f0cf-4589-9bc6-3dec9f64423e.png" alt="drawing" width="200"/>
+  <img src="https://user-images.githubusercontent.com/36732835/214177765-453f9a66-7e09-4992-911e-943c1f355d7b.png" alt="drawing" width="200"/>
+  <img src="https://user-images.githubusercontent.com/36732835/214178031-14a9ad15-fc62-42cf-acaa-06c74cdc2c30.png" alt="drawing" width="200"/>
+</p>
 
 ## Credits
 
