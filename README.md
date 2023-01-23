@@ -1,11 +1,9 @@
 <h1 align="center">
-  <br>
-  <a href="" alt="QuickThoughts" width="200"></a>
+<img src="https://user-images.githubusercontent.com/36732835/213952978-a725dbb7-8d08-46a8-a732-7d51e28befc4.png" alt="drawing" width="200"/>
   <br>
   QuickThoughts
   <br>
 </h1>
-
 <h4 align="center">An iOS Social Network App.</h4>
 
 <p align="center">
@@ -24,7 +22,7 @@
 </p>
 
 <p align="center">
-<a href="#what-is-this?">What is this</a> •
+<a href="#what-is-this">What is this?</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#pictures">Pictures</a> •
   <a href="#credits">Credits</a>
