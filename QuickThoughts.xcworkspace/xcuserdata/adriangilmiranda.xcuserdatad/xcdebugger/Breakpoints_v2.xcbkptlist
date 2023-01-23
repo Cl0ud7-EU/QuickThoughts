@@ -1,0 +1,2922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "37A031C9-8D33-4E4B-AD8E-8C46F9917F76"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E6FF17C-303F-4508-AFA1-869F9417EF5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "logIn()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7E6FF17C-303F-4508-AFA1-869F9417EF5B - 4e67b655450d5154"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for QuickThoughts.LoginViewModel.logIn() async throws -&gt; QuickThoughts.UserT"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "610">
+               </Location>
+               <Location
+                  uuid = "7E6FF17C-303F-4508-AFA1-869F9417EF5B - c638763d06c9c349"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for QuickThoughts.LoginViewModel.logIn() async throws -&gt; QuickThoughts.UserT"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "7E6FF17C-303F-4508-AFA1-869F9417EF5B - 62d86c98bf74152a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.LoginViewModel.logIn() async throws -&gt; QuickThoughts.UserT"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "130">
+               </Location>
+               <Location
+                  uuid = "7E6FF17C-303F-4508-AFA1-869F9417EF5B - f08239e5a448b729"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for QuickThoughts.LoginViewModel.logIn() async throws -&gt; QuickThoughts.UserT"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56FD0725-40A0-49D9-BB34-8DD770B1714A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "logIn()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "335D9236-BEFC-41D6-A9C6-02E7642696C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "logIn()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E0EC9AB-4A5E-4237-855C-053D853EE915"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "logIn()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8E0EC9AB-4A5E-4237-855C-053D853EE915 - 62d86c98bf74156c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.LoginViewModel.logIn() async throws -&gt; QuickThoughts.UserT"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "254">
+               </Location>
+               <Location
+                  uuid = "8E0EC9AB-4A5E-4237-855C-053D853EE915 - 62d86c98bf74156c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.LoginViewModel.logIn() async throws -&gt; QuickThoughts.UserT"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "558">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9302586F-28FC-4E25-AF5E-01040985FD0C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "logIn()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04D7114E-18AC-4F32-935B-7AC5D959B08B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "fetchFollows()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D3772D8-E322-4266-8A1A-5E4C24E11113"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/View/Timeline/TimelineView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4D3772D8-E322-4266-8A1A-5E4C24E11113 - f9b36545506b55d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in QuickThoughts.TimelineView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Timeline/TimelineView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "4D3772D8-E322-4266-8A1A-5E4C24E11113 - 8542aa5dfcdb8486"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for closure #1 @Sendable () async -&gt; () in QuickThoughts.TimelineView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Timeline/TimelineView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "4D3772D8-E322-4266-8A1A-5E4C24E11113 - bc65957e6595ede4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Sendable () async -&gt; () in QuickThoughts.TimelineView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Timeline/TimelineView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E78B68D7-A641-4B40-A915-31B29E071693"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "fetchFollows()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64F89758-B0BC-4587-8BAA-3ADE8C3422AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9071797-E999-49E3-BFB3-E985794280FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchFollows()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBDE43DE-560C-4839-A9FA-3BB28919E563"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/QuickT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "init(form:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DD0A4BC-CC75-46F2-AEF6-7EBB8F0C4688"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/QuickT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "init(form:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F3FEE07-A3C2-48D6-B1E7-216BCD991428"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/QuickT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "QuickTDecodable"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8872654C-9C1F-43B9-816E-31BABF12B326"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/QuickT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "QuickTDecodable"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C475B5C0-3CED-466D-8535-858F2BA3F48C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/QuickT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "QuickTDecodable"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A1AD14A-18D8-4BDE-94B0-5FA3E0E84528"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/QuickT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "init(form:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9134DEEB-3CA1-433F-A7F1-34CE2662D280"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/QuickT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "init(form:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23BA9876-1E40-4636-8308-343EE557599E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/QuickT.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "init(form:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0A867DE-9C38-4B1B-AA7E-C91C12DE784D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00732D4D-5AEF-4701-A6FB-DDC2E0B0DD53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "00732D4D-5AEF-4701-A6FB-DDC2E0B0DD53 - 7a073210c7ad7235"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1337">
+               </Location>
+               <Location
+                  uuid = "00732D4D-5AEF-4701-A6FB-DDC2E0B0DD53 - 8d15f9c5baebde22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "00732D4D-5AEF-4701-A6FB-DDC2E0B0DD53 - c0467ffb1f0bb0de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "00732D4D-5AEF-4701-A6FB-DDC2E0B0DD53 - c0467ffb1f0bb24b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "00732D4D-5AEF-4701-A6FB-DDC2E0B0DD53 - 684b8a37768f249"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1073">
+               </Location>
+               <Location
+                  uuid = "00732D4D-5AEF-4701-A6FB-DDC2E0B0DD53 - 768e1ca926f2d8f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(12) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "270">
+               </Location>
+               <Location
+                  uuid = "00732D4D-5AEF-4701-A6FB-DDC2E0B0DD53 - 1ed8edb356df79f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "892">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56DC5A68-BC07-44D0-BC42-16A80EA4E364"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "56DC5A68-BC07-44D0-BC42-16A80EA4E364 - 37c0f1286c4c3e5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "1893">
+               </Location>
+               <Location
+                  uuid = "56DC5A68-BC07-44D0-BC42-16A80EA4E364 - 7a073210c7ad7e59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "1510">
+               </Location>
+               <Location
+                  uuid = "56DC5A68-BC07-44D0-BC42-16A80EA4E364 - c0467ffb1f0bbe27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "1910">
+               </Location>
+               <Location
+                  uuid = "56DC5A68-BC07-44D0-BC42-16A80EA4E364 - 684b8a37768fe25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "1266">
+               </Location>
+               <Location
+                  uuid = "56DC5A68-BC07-44D0-BC42-16A80EA4E364 - 26227ed2c65f929e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "1258">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B731EA3B-1C0A-430B-9D6D-A69740EE6AA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B731EA3B-1C0A-430B-9D6D-A69740EE6AA9 - 37c0f1286c4c313f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "920">
+               </Location>
+               <Location
+                  uuid = "B731EA3B-1C0A-430B-9D6D-A69740EE6AA9 - 7a073210c7ad713d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "B731EA3B-1C0A-430B-9D6D-A69740EE6AA9 - c0467ffb1f0bb143"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "535">
+               </Location>
+               <Location
+                  uuid = "B731EA3B-1C0A-430B-9D6D-A69740EE6AA9 - 684b8a37768f141"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "371">
+               </Location>
+               <Location
+                  uuid = "B731EA3B-1C0A-430B-9D6D-A69740EE6AA9 - 26227ed2c65f9dfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "375">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8 - 7a073210c7ad71b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "578">
+               </Location>
+               <Location
+                  uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8 - 8d15f9c5baebddae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8 - c0467ffb1f0bb1c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "338">
+               </Location>
+               <Location
+                  uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8 - ce7c4fdcf6083c7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1039">
+               </Location>
+               <Location
+                  uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8 - 1ed8edb356df7a7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "423">
+               </Location>
+               <Location
+                  uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8 - 17f75091e75c2778"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(16) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8 - bc01219a1706c679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(17) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "717">
+               </Location>
+               <Location
+                  uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8 - 6453f76447f36486"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(18) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1383">
+               </Location>
+               <Location
+                  uuid = "8780D051-9AB5-4BBB-A057-5D254E918ED8 - cedc46e77dd0387"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(19) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1090">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3145FC15-4CDA-46DF-881A-DCA116DC9832"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/UserStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "fetchUserCoreData(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52F6C931-A402-4263-8232-979DF1F153A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/UserStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "fetchUserCoreData(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1562A514-8FE3-4E6E-9A7B-F1DDA49532E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/UserStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchUserCoreData(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDE52681-5C01-49D6-8498-607EDCC9B2BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "fetchFollows()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B865095-8B2A-45EC-983E-276FF43506CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B865095-8B2A-45EC-983E-276FF43506CB - 7a073210c7ad7277"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "948">
+               </Location>
+               <Location
+                  uuid = "9B865095-8B2A-45EC-983E-276FF43506CB - c0467ffb1f0bb209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "690">
+               </Location>
+               <Location
+                  uuid = "9B865095-8B2A-45EC-983E-276FF43506CB - 684b8a37768f20b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  uuid = "9B865095-8B2A-45EC-983E-276FF43506CB - 768e1ca926f2d8b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(12) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "541">
+               </Location>
+               <Location
+                  uuid = "9B865095-8B2A-45EC-983E-276FF43506CB - 1ed8edb356df79b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "545">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30968404-B482-44E7-AFD9-4513AA3FCDA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30968404-B482-44E7-AFD9-4513AA3FCDA2 - f181b44014eff76a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "30968404-B482-44E7-AFD9-4513AA3FCDA2 - 279be52497e02175"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "30968404-B482-44E7-AFD9-4513AA3FCDA2 - 65a51e4f4b5b5713"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07A19D27-7E54-4477-A7EA-DC6653B2E6B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73A934F6-18C0-4A9C-90A7-2D8EC70744E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Manager/QuickTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "fetchTimelineQuickTs(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E1C381A-6A61-4C56-B564-9DBD5F45C20F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Manager/QuickTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "fetchTimelineQuickTs(user:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E1C381A-6A61-4C56-B564-9DBD5F45C20F - e21141c3582ea639"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.QuickTManager.fetchTimelineQuickTs(user: QuickThoughts.UserT) async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Manager/QuickTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1155">
+               </Location>
+               <Location
+                  uuid = "6E1C381A-6A61-4C56-B564-9DBD5F45C20F - faeda3d1493f6109"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for QuickThoughts.QuickTManager.fetchTimelineQuickTs(user: QuickThoughts.UserT) async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Manager/QuickTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "6E1C381A-6A61-4C56-B564-9DBD5F45C20F - d88944c574756494"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.QuickTManager.fetchTimelineQuickTs(user: QuickThoughts.UserT) async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Manager/QuickTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "102">
+               </Location>
+               <Location
+                  uuid = "6E1C381A-6A61-4C56-B564-9DBD5F45C20F - d88944c5747565bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.QuickTManager.fetchTimelineQuickTs(user: QuickThoughts.UserT) async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Manager/QuickTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "298">
+               </Location>
+               <Location
+                  uuid = "6E1C381A-6A61-4C56-B564-9DBD5F45C20F - 9f014bdf139b2135"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.QuickTManager.fetchTimelineQuickTs(user: QuickThoughts.UserT) async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Manager/QuickTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "334B803C-94F3-4870-A2A5-1F3CE32D270F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/QuickTStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "importQuickTs(quickts:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "334B803C-94F3-4870-A2A5-1F3CE32D270F - 8974af81039d6bb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for QuickThoughts.QuickTStorage.importQuickTs(quickts: Swift.Array&lt;QuickThoughts.QuickTDecodable&gt;) async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Storage/QuickTStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "195">
+               </Location>
+               <Location
+                  uuid = "334B803C-94F3-4870-A2A5-1F3CE32D270F - 7877e124e2662fb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.QuickTStorage.importQuickTs(quickts: Swift.Array&lt;QuickThoughts.QuickTDecodable&gt;) async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Storage/QuickTStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "334B803C-94F3-4870-A2A5-1F3CE32D270F - 2ff89dea0d5b51b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for QuickThoughts.QuickTStorage.importQuickTs(quickts: Swift.Array&lt;QuickThoughts.QuickTDecodable&gt;) async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Storage/QuickTStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE5A1145-9024-4FB7-8BEC-B7C7CF5ACA3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/QuickTStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "importQuickTs(quickts:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DEE3618-6A1D-4288-B5E6-4502DE267E4D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/QuickTStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "newBatchInsertRequest(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8DEE3618-6A1D-4288-B5E6-4502DE267E4D - 3b4faf3d31294422"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickThoughts.QuickTStorage.newBatchInsertRequest(with: Swift.Array&lt;QuickThoughts.QuickTDecodable&gt;) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Storage/QuickTStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "143">
+               </Location>
+               <Location
+                  uuid = "8DEE3618-6A1D-4288-B5E6-4502DE267E4D - 3ad3d584ca184e2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSMutableDictionary) -&gt; Swift.Bool in QuickThoughts.QuickTStorage.newBatchInsertRequest(with: Swift.Array&lt;QuickThoughts.QuickTDecodable&gt;) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/Storage/QuickTStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "135">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A974ACFD-F31B-405E-965F-6B488993E04F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A974ACFD-F31B-405E-965F-6B488993E04F - 37c0f1286c4c3388"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1505">
+               </Location>
+               <Location
+                  uuid = "A974ACFD-F31B-405E-965F-6B488993E04F - 7a073210c7ad738a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1360">
+               </Location>
+               <Location
+                  uuid = "A974ACFD-F31B-405E-965F-6B488993E04F - c0467ffb1f0bb3f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1009">
+               </Location>
+               <Location
+                  uuid = "A974ACFD-F31B-405E-965F-6B488993E04F - 684b8a37768f3f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "807">
+               </Location>
+               <Location
+                  uuid = "A974ACFD-F31B-405E-965F-6B488993E04F - 26227ed2c65f9f4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "826">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6C6E38F-055B-4A16-83FA-A9FF03D848F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6C6E38F-055B-4A16-83FA-A9FF03D848F9 - 37c0f1286c4c3c65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "1298">
+               </Location>
+               <Location
+                  uuid = "E6C6E38F-055B-4A16-83FA-A9FF03D848F9 - 7a073210c7ad7c67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "1190">
+               </Location>
+               <Location
+                  uuid = "E6C6E38F-055B-4A16-83FA-A9FF03D848F9 - c0467ffb1f0bbc19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "892">
+               </Location>
+               <Location
+                  uuid = "E6C6E38F-055B-4A16-83FA-A9FF03D848F9 - 684b8a37768fc1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "719">
+               </Location>
+               <Location
+                  uuid = "E6C6E38F-055B-4A16-83FA-A9FF03D848F9 - 26227ed2c65f90a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "720">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17ED4A9D-3353-45C5-9038-76BBD93241B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "17ED4A9D-3353-45C5-9038-76BBD93241B7 - 37c0f1286c4c3c80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "2006">
+               </Location>
+               <Location
+                  uuid = "17ED4A9D-3353-45C5-9038-76BBD93241B7 - 7a073210c7ad7c82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "1611">
+               </Location>
+               <Location
+                  uuid = "17ED4A9D-3353-45C5-9038-76BBD93241B7 - 8d15f9c5baebd095"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "17ED4A9D-3353-45C5-9038-76BBD93241B7 - c0467ffb1f0bb0de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "318">
+               </Location>
+               <Location
+                  uuid = "17ED4A9D-3353-45C5-9038-76BBD93241B7 - c0467ffb1f0bbcfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "353">
+               </Location>
+               <Location
+                  uuid = "17ED4A9D-3353-45C5-9038-76BBD93241B7 - 684b8a37768fcfe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "1367">
+               </Location>
+               <Location
+                  uuid = "17ED4A9D-3353-45C5-9038-76BBD93241B7 - 26227ed2c65f9045"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "270">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "834BAAEF-488F-4B16-87F4-127C29B38387"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2C63B7C-CE3D-482A-A9C1-BCF02C5FE25D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C2C63B7C-CE3D-482A-A9C1-BCF02C5FE25D - 37c0f1286c4c3eb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "3592">
+               </Location>
+               <Location
+                  uuid = "C2C63B7C-CE3D-482A-A9C1-BCF02C5FE25D - 7a073210c7ad7eb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "3020">
+               </Location>
+               <Location
+                  uuid = "C2C63B7C-CE3D-482A-A9C1-BCF02C5FE25D - c0467ffb1f0bbecc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "3259">
+               </Location>
+               <Location
+                  uuid = "C2C63B7C-CE3D-482A-A9C1-BCF02C5FE25D - 684b8a37768fece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "2674">
+               </Location>
+               <Location
+                  uuid = "C2C63B7C-CE3D-482A-A9C1-BCF02C5FE25D - 26227ed2c65f9275"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "2744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F5A7113-15C0-44EF-89C5-DCDD5CEEBB7A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/View/Profile/QuickTScrollView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95B12B8C-6DC0-45FC-B07A-903A5FA9368B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/QuickTStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "newBatchInsertRequest(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "108BF662-DCDB-49A1-8935-BE0E52113AAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "108BF662-DCDB-49A1-8935-BE0E52113AAB - 7a073210c7ad7277"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "948">
+               </Location>
+               <Location
+                  uuid = "108BF662-DCDB-49A1-8935-BE0E52113AAB - c0467ffb1f0bb209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "690">
+               </Location>
+               <Location
+                  uuid = "108BF662-DCDB-49A1-8935-BE0E52113AAB - 684b8a37768f20b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  uuid = "108BF662-DCDB-49A1-8935-BE0E52113AAB - 768e1ca926f2d8b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(12) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "541">
+               </Location>
+               <Location
+                  uuid = "108BF662-DCDB-49A1-8935-BE0E52113AAB - 1ed8edb356df79b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "545">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAF411A1-2357-420C-B66B-0E26FC1127E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/ProfilePicStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchProfilePicCoreData(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D85892C0-63BF-4032-B443-B1082166ABDB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/ProfilePicStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchProfilePicCoreData(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3249A194-7967-45D4-9659-722A68112970"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/ProfilePicStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchProfilePicCoreData(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08633E41-7A2B-4064-B094-A47ED4448FE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/ProfilePicStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchProfilePicCoreData(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F64E2ED7-C355-473D-A64D-3C73AF0968A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/ProfilePicStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchProfilePicCoreData(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3841257F-70AF-48DA-81BB-71571307C4DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - b3611b4cbc3243e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2818">
+               </Location>
+               <Location
+                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - 2a43acf3f1185e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2261">
+               </Location>
+               <Location
+                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - 91ff5a71bef4c7e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2409">
+               </Location>
+               <Location
+                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - ef3275f431da799d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2031">
+               </Location>
+               <Location
+                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - 2c3859cfe109fd6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2010">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - b3611b4cbc32469c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "1421">
+               </Location>
+               <Location
+                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - 2a43acf3f11809a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "1190">
+               </Location>
+               <Location
+                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - 91ff5a71bef4c298"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "892">
+               </Location>
+               <Location
+                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - ef3275f431da7ce6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "719">
+               </Location>
+               <Location
+                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - 2c3859cfe109f817"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "720">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - b3611b4cbc3244ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "2016">
+               </Location>
+               <Location
+                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - 2a43acf3f1182c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1510">
+               </Location>
+               <Location
+                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - 91ff5a71bef4c0ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1910">
+               </Location>
+               <Location
+                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - ef3275f431da7eb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1266">
+               </Location>
+               <Location
+                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - 2c3859cfe109fa45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1258">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EBF3404-8049-4041-97A1-A0CD3A18EE9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0EBF3404-8049-4041-97A1-A0CD3A18EE9B - 37c0f1286c4c3ed7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2443">
+               </Location>
+               <Location
+                  uuid = "0EBF3404-8049-4041-97A1-A0CD3A18EE9B - 7a073210c7ad7ed5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2021">
+               </Location>
+               <Location
+                  uuid = "0EBF3404-8049-4041-97A1-A0CD3A18EE9B - c0467ffb1f0bbeab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2172">
+               </Location>
+               <Location
+                  uuid = "0EBF3404-8049-4041-97A1-A0CD3A18EE9B - 684b8a37768fea9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "1791">
+               </Location>
+               <Location
+                  uuid = "0EBF3404-8049-4041-97A1-A0CD3A18EE9B - 26227ed2c65f9212"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for QuickThoughts.TimelineViewModel.fetchQuickTs() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/TimelineViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "1776">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C47751E9-6A49-47BA-9E2C-19ABE964B1D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C47751E9-6A49-47BA-9E2C-19ABE964B1D2 - 34478564d508796f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in QuickThoughts.ExternalUserProfileView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/ExternalUserProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "C47751E9-6A49-47BA-9E2C-19ABE964B1D2 - c733469649afe1d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in QuickThoughts.ExternalUserProfileView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/ExternalUserProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "C47751E9-6A49-47BA-9E2C-19ABE964B1D2 - 7475e7ebc77481e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #2 @Sendable () async -&gt; () in QuickThoughts.ExternalUserProfileView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/ExternalUserProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D383635C-1BAC-42F0-9BC3-6C0BA653953B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC8DDE9E-1522-4C75-B4BC-9271C547743F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F984F1CA-74AA-4025-8980-DA7186AED2E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/View/Profile/AuthUserProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F984F1CA-74AA-4025-8980-DA7186AED2E4 - 1a0fda4d5b749dd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, QuickThoughts.QuickTScrollView)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, QuickThoughts.QuickTScrollView)&gt;&gt; in QuickThoughts.AuthUserProfileView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/AuthUserProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "455">
+               </Location>
+               <Location
+                  uuid = "F984F1CA-74AA-4025-8980-DA7186AED2E4 - cf8e353ddc286895"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, QuickThoughts.QuickTScrollView)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, QuickThoughts.QuickTScrollView)&gt;&gt; in QuickThoughts.AuthUserProfileView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/AuthUserProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "291">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BF84184-3950-475E-BFA6-BAAD22FDF9C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6BF84184-3950-475E-BFA6-BAAD22FDF9C4 - d8b5601bec414477"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.navBarHidden(value: Swift.Bool) -&gt; some&gt;&gt;.0)&gt; in QuickThoughts.ExternalUserProfileView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/ExternalUserProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "486">
+               </Location>
+               <Location
+                  uuid = "6BF84184-3950-475E-BFA6-BAAD22FDF9C4 - 3b13abc5e57c9f9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.navBarHidden(value: Swift.Bool) -&gt; some&gt;&gt;.0)&gt; in QuickThoughts.ExternalUserProfileView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/Profile/ExternalUserProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F45D57A-ACF2-44EE-B1A9-C0D1AC7A4CDD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchFollows()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5448B397-5C8B-4250-A140-DC4EF5ED3D6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/TimelineViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "fetchQuickTs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22CAD903-323F-42D8-A386-8AAC0D9E4EF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Manager/QuickTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "fetchTimelineQuickTs(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D7F37EE-C89E-4B4A-9C2E-18DEA631B867"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/View/SearchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6D7F37EE-C89E-4B4A-9C2E-18DEA631B867 - d91becb2ce615f09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 (Swift.String) -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollContentBackground(SwiftUI.Visibility) -&gt; some&gt;&gt;.0)&gt; in QuickThoughts.SearchView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/SearchView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "227">
+               </Location>
+               <Location
+                  uuid = "6D7F37EE-C89E-4B4A-9C2E-18DEA631B867 - fd40c9283690071c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 (Swift.String) -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollContentBackground(SwiftUI.Visibility) -&gt; some&gt;&gt;.0)&gt; in QuickThoughts.SearchView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/SearchView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "6D7F37EE-C89E-4B4A-9C2E-18DEA631B867 - ed2b11db974b2934"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 (Swift.String) -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.onChange&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(of: &#x3c4;_1_0, perform: (&#x3c4;_1_0) -&gt; ()) -&gt; some&gt;&gt;.0, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.scrollContentBackground(SwiftUI.Visibility) -&gt; some&gt;&gt;.0)&gt; in QuickThoughts.SearchView.body.getter : some"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/View/SearchView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "78">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAAC1248-7294-48EC-B80A-3758131A5235"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "searchUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CAAC1248-7294-48EC-B80A-3758131A5235 - f9b03d56bd18316f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuickThoughts.SearchViewModel.searchUsers() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "764">
+               </Location>
+               <Location
+                  uuid = "CAAC1248-7294-48EC-B80A-3758131A5235 - 1b08168d75f9adaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for QuickThoughts.SearchViewModel.searchUsers() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "CAAC1248-7294-48EC-B80A-3758131A5235 - 338385cd96e75ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for QuickThoughts.SearchViewModel.searchUsers() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "CAAC1248-7294-48EC-B80A-3758131A5235 - 44802362fab5a813"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for QuickThoughts.SearchViewModel.searchUsers() async throws -&gt; ()"
+                  moduleName = "QuickThoughts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "95">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4ECE43BF-0521-4725-A849-0E76D6FC78B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/UserStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "fetchAllUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8094D17-5EF9-47E9-BCF0-91CD1FBBD827"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Core/Authentication.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "setUser(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37CD1947-94FB-4D1C-B18E-EDFB2D07CCBB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "logIn()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D92178D-0955-4F5E-9278-C17C46FF2CE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "init(form:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B2D4A64-DCBF-4FE7-9395-9C381D9AD26C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "UserDecodable"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2783B05-A546-46D3-8ACA-880D4FBF7953"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "init(form:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "381847F0-532F-454D-985A-5F4238BC5AB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "UserDecodable"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B3161A6-6D3F-48F2-BAAA-7FFD9361925B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Model/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "UserDecodable"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F487361E-14CF-4A55-B8A1-90634186F94F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Core/Authentication.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "setLoggedStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBBC45BE-5C8C-48F0-99EF-C3B8E9F27AFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Core/Authentication.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "setLoggedStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
