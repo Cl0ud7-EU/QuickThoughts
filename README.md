@@ -31,7 +31,7 @@
 
 ## What is this?
 
-This is a Social Network App for iOS developed by myself, it uses, technologies such as Swift, SwiftUI, CoreData, and Cocoapods.
+This is a Social Network App for iOS developed by myself, it is developed using technologies such as Swift, SwiftUI, CoreData, and Cocoapods following a MVVM architecture.
 On top of that it also has a custom backend that is not publicly available at the moment.
 
 This application is a personal project to improve my skills in iOS development so even when it is already hosted and works as expected it is not available to be used yet, maybe it will be in the near future.
