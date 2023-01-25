@@ -17,16 +17,16 @@ struct Profile: View {
         {
             if (viewModel!.user.id == Authentication.shared.getUser().id)
             {
-                AuthUserProfileView()
+                AuthUserProfileView(viewModel: ProfileViewModel(user: Authentication.shared.getUser()))
             }
             else
             {
-                ExternalUserProfileView(viewModel: viewModel!)
+                ExternalUserProfileView(authUser: Authentication.shared.getUser(), viewModel: viewModel!)
             }
         }
         else
         {
-            AuthUserProfileView(backButtonHidden: true)
+            AuthUserProfileView(viewModel: ProfileViewModel(user: Authentication.shared.getUser()), backButtonHidden: true)
         }
     }
 }

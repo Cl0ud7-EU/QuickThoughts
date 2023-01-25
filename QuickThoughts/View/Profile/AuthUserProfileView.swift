@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AuthUserProfileView: View {
     
-    @ObservedObject var viewModel = ProfileViewModel(user: Authentication.shared.getUser())
+    @ObservedObject var viewModel: ProfileViewModel
     @Environment(\.presentationMode) var presentationMode
     var backButtonHidden = false
     let image = UIImage(named: "ProfileBG")!
@@ -98,7 +98,6 @@ struct AuthUserProfileView: View {
                     .navBarState(value: NavBarStates.isHidden)
             }
         }
-        //.navBarHidden(value: true)
         .ignoresSafeArea(edges: .top)
         .task {
             do
@@ -127,7 +126,9 @@ struct AuthUserProfileView: View {
 }
 
 struct AuthUserProfileView_Previews: PreviewProvider {
+    static let viewModel = ProfileViewModel(user: .preview, profileQuickTs: QuickT.preview)
+    
     static var previews: some View {
-        AuthUserProfileView()
+        AuthUserProfileView(viewModel: viewModel)
     }
 }

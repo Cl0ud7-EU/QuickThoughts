@@ -9,7 +9,23 @@ import CoreData
 
 struct PersistenceController {
     static let shared = PersistenceController()
-
+    
+    static var preview: PersistenceController = {
+        let result = PersistenceController(inMemory: true)
+        let viewContext = result.container.viewContext
+        //User.makePreviews(count: 10)
+        let user = User(context: viewContext)
+        user.id = Int32(1)
+        user.name = "Test"
+        do {
+            try viewContext.save()
+        } catch {
+            let nsError = error as NSError
+            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+        }
+        return result
+    }()
+    
     let container: NSPersistentContainer
 
     private let inMemory: Bool

@@ -78,4 +78,23 @@ extension User: Encodable {
         try container.encode(name, forKey: .name)
         //try container.encode(follows, forKey: .follows)
     }
+    
+    /// An user for use with canvas previews.
+    static var preview: User {
+        let users = User.makePreviews(count: 1)
+        return users[0]
+    }
+
+    @discardableResult
+    static func makePreviews(count: Int) -> [User] {
+        var users = [User]()
+        let viewContext = PersistenceController.preview.container.viewContext
+        for index in 0..<count {
+            let user = User(context: viewContext)
+            user.id = Int32(index+1)
+            user.name = "Test"+String(index+1)
+            users.append(user)
+        }
+        return users
+    }
 }

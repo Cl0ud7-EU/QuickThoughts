@@ -12,7 +12,8 @@ import KeychainSwift
 class Authentication: ObservableObject {
     
     let keychain = KeychainSwift()
-    private var user: User?
+    //private var user: User?
+    private var user = User.preview
     @Published private var loggedStatus: Bool = false
     
     static let shared = Authentication()
@@ -52,6 +53,6 @@ class Authentication: ObservableObject {
     }
     func getUser() -> User
     {
-        return user!
+        return user
     }
 }

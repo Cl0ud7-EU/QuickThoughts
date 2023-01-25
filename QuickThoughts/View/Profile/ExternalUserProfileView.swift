@@ -9,9 +9,8 @@ import SwiftUI
 
 struct ExternalUserProfileView: View {
     
-    //var user: User
+    let authUser: User
     @ObservedObject var viewModel: ProfileViewModel
-
     @Environment(\.presentationMode) var presentationMode
     let image = UIImage(named: "ProfileBG")!
     
@@ -36,7 +35,7 @@ struct ExternalUserProfileView: View {
                         .frame(height: 180)
                         .offset(x: 5, y: -25)
                         VStack {
-                            if(Authentication.shared.getUser().follows != nil)
+                            if(authUser.follows != nil)
                             {
                                 if (Authentication.shared.getUser().follows!.contains(viewModel.user.id))
                                 {
@@ -124,40 +123,17 @@ struct ExternalUserProfileView: View {
             .frame(width: 130)
             .offset(x: 20)
             
-            QuickTScrollView(timelineQuickTs: viewModel.profileQuickTs, timelineUsers: viewModel.profileTimelineUsers)
-                .navBarHidden(value: true)
-                .navBarState(value: NavBarStates.isHidden)
-        }
-        .ignoresSafeArea(edges: .top)
-        .task {
-            do
-            {
-                try await viewModel.fetchFollows()
-                do
-                {
-                    try await viewModel.fetchQuickTs()
-                } catch {
-                    print("ERROR FETCHING PROFILE QUICKTS:", error)
-                }
-            }
-            catch {
-                print("ERROR FETCHING FOLLOWERS:", error)
-            }
-        }
-        .task {
-            do
-            {
-                try await viewModel.getPic()
-            } catch {
-                print("ERROR GETTING PROFILE PIC:", error)
-            }
+//            QuickTScrollView(timelineQuickTs: viewModel.profileQuickTs, timelineUsers: viewModel.profileTimelineUsers)
+//                .navBarHidden(value: true)
+//                .navBarState(value: NavBarStates.isHidden)
         }
     }
 }
 
-//struct ExternalUserProfileView_Previews: PreviewProvider {
-//
-//    static var previews: some View {
-//        ExternalUserProfileView()
-//    }
-//}
+struct ExternalUserProfileView_Previews: PreviewProvider {
+
+    static var previews: some View {
+        ExternalUserProfileView(authUser: .preview, viewModel:  ProfileViewModel(user: .preview))
+            //.environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    }
+}

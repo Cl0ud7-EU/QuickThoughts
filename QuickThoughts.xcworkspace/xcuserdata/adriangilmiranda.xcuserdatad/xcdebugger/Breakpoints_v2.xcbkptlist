@@ -2009,285 +2009,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3841257F-70AF-48DA-81BB-71571307C4DB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QuickThoughts/ViewModel/ProfileViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
-            landmarkName = "fetchQuickTs()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - b3611b4cbc3243e7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "122"
-                  endingLineNumber = "122"
-                  offsetFromSymbolStart = "2818">
-               </Location>
-               <Location
-                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - 2a43acf3f1185e1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "122"
-                  endingLineNumber = "122"
-                  offsetFromSymbolStart = "2261">
-               </Location>
-               <Location
-                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - 91ff5a71bef4c7e3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "122"
-                  endingLineNumber = "122"
-                  offsetFromSymbolStart = "2409">
-               </Location>
-               <Location
-                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - ef3275f431da799d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(9) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "122"
-                  endingLineNumber = "122"
-                  offsetFromSymbolStart = "2031">
-               </Location>
-               <Location
-                  uuid = "3841257F-70AF-48DA-81BB-71571307C4DB - 2c3859cfe109fd6c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(10) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "122"
-                  endingLineNumber = "122"
-                  offsetFromSymbolStart = "2010">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QuickThoughts/ViewModel/ProfileViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "fetchQuickTs()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - b3611b4cbc32469c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
-                  offsetFromSymbolStart = "1421">
-               </Location>
-               <Location
-                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - 2a43acf3f11809a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
-                  offsetFromSymbolStart = "1190">
-               </Location>
-               <Location
-                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - 91ff5a71bef4c298"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
-                  offsetFromSymbolStart = "892">
-               </Location>
-               <Location
-                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - ef3275f431da7ce6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(9) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
-                  offsetFromSymbolStart = "719">
-               </Location>
-               <Location
-                  uuid = "34B4BBD3-3BFB-4B2B-AE59-02E6F921DDA8 - 2c3859cfe109f817"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(10) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
-                  offsetFromSymbolStart = "720">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QuickThoughts/ViewModel/ProfileViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "fetchQuickTs()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - b3611b4cbc3244ce"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "2016">
-               </Location>
-               <Location
-                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - 2a43acf3f1182c8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "1510">
-               </Location>
-               <Location
-                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - 91ff5a71bef4c0ca"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "1910">
-               </Location>
-               <Location
-                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - ef3275f431da7eb4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(9) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "1266">
-               </Location>
-               <Location
-                  uuid = "4243C92A-3ABC-4895-9F91-B4E8B2350312 - 2c3859cfe109fa45"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(10) suspend resume partial function for QuickThoughts.ProfileViewModel.fetchQuickTs() async throws -&gt; ()"
-                  moduleName = "QuickThoughts"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Cl0ud7/Develop/XCode%20Projects/QuickThoughts/QuickThoughts/ViewModel/ProfileViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "1258">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0EBF3404-8049-4041-97A1-A0CD3A18EE9B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -2388,8 +2109,8 @@
             filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -2404,8 +2125,8 @@
             filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -2468,8 +2189,8 @@
             filePath = "QuickThoughts/View/Profile/ExternalUserProfileView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -2721,8 +2442,8 @@
             filePath = "QuickThoughts/Core/Authentication.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "setUser(user:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2833,8 +2554,8 @@
             filePath = "QuickThoughts/Core/Authentication.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "setLoggedStatus()"
             landmarkType = "7">
          </BreakpointContent>
@@ -2849,10 +2570,26 @@
             filePath = "QuickThoughts/Core/Authentication.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "setLoggedStatus()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "772A66DE-A81F-4A03-BB46-3EB7A6079A9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickThoughts/Storage/Persistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "preview"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

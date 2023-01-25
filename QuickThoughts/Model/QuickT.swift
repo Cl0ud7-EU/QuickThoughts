@@ -76,4 +76,24 @@ extension QuickT: Encodable {
         try container.encode(text, forKey: .text)
         try container.encode(userId, forKey: .userId)
     }
+    
+    /// An user for use with canvas previews.
+    static var preview: [QuickT] {
+        let quickTs = QuickT.makePreviews(count: 10)
+        return quickTs
+    }
+
+    @discardableResult
+    static func makePreviews(count: Int) -> [QuickT] {
+        var quickTs = [QuickT]()
+        let viewContext = PersistenceController.preview.container.viewContext
+        for index in 0..<count {
+            let quickt = QuickT(context: viewContext)
+            quickt.id = Int32(index+1)
+            quickt.userId = 1
+            quickt.text = "QuickT Test"+String(index+1)
+            quickTs.append(quickt)
+        }
+        return quickTs
+    }
 }
